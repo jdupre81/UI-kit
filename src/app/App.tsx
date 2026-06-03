@@ -129,7 +129,7 @@ export default function App() {
           >
             <span>UI Design Kit v2.1</span>
             <span>•</span>
-            <span>Updated May 28, 2026</span>
+            <span>Updated June 3, 2026</span>
             <span>•</span>
             <span className="text-[#5461a6] dark:text-[#93c5fd]">
               Based on datascience.ch
