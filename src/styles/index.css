@@ -1,0 +1,11 @@
+/* Font imports must come first */
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+@import url('https://api.fontshare.com/v2/css?f[]=switzer@400,500,600,700&display=swap');
+
+@import 'tailwindcss';
+
+@source '../../**/*.{js,ts,jsx,tsx}';
+
+@import './fonts.css';
+@import './default_theme.css';
+@import './globals.css';
