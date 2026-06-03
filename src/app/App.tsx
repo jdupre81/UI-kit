@@ -90,7 +90,7 @@ export default function App() {
                   href="#colors"
                   className={`hover:text-[#5461a6] dark:hover:text-white transition-colors ${darkMode ? "text-gray-100" : "text-[#848484]"}`}
                 >
-                  Design Tokens
+                  Design Tokens YES
                 </a>
                 <a
                   href="#buttons"
