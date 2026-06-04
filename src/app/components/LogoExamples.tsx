@@ -12,7 +12,7 @@ import logoShortWhite from "/src/imports/SDSC_Logo_White.png";
 import screenshotLucid from "/src/imports/screenshot_lucid.png";
 
         {/* Partner logos screenshot Imaging Plaza */}
-import screenshotImagingPlaza from "/src/imports/screenshotImagingPlaza";
+import screenshotImagingPlaza from "/src/imports/screenshot_imagingPlaza.png";
 
 import ethLogo from "/src/imports/eth_logo_kurz_pos.png";
 import epflLogo from "/src/imports/EPFL_Logo_Digital_RGB_PROD.png";
