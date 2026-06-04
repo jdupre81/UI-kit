@@ -301,10 +301,10 @@ export function LogoExamples() {
         {/* Partner Logos */}
         <div className="space-y-3">
           <p className="text-sm font-semibold text-[#000000] dark:text-white">
-            Partner Logos
+            Project Partner Logos
           </p>
           <p className="text-sm text-[#848484] dark:text-gray-300">
-            Main partner logos to display in footer sections
+            Indicating the creators of the project / platform. If the application or platform being built is a collaborative project of SDSC with another partners or more than one partner, please display the partner logos in footer section in equal size on one line next to each other (from left to right). As a rule of thumb, the main project owner / partner - if not SDSC - should be listed first on the left. If thre's more than 10 logos, exceeding one line - the logo line should continue on a 2nd or 3rd line
           </p>
 
           {/* Partner logos on white */}
