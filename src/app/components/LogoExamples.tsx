@@ -49,7 +49,7 @@ export function LogoExamples() {
           <div className="space-y-2">
             <div className="bg-white dark:bg-[#2d2d2d] rounded-none border border-[#E5E5E5] dark:border-[#404040] p-8 flex flex-col items-center gap-3">
               <img
-                src={logoCompactColor}
+                src={logoShortColor}
                 alt="SDSC Logo Compact - Color"
                 className="h-16"
               />
@@ -58,7 +58,7 @@ export function LogoExamples() {
               </p>
             </div>
             <a
-              href={logoCompactColor}
+              href={logoShortWhite}
               download
               className="text-xs text-[#5461a6] dark:text-[#93c5fd] hover:text-[#26245c] dark:hover:text-white transition-colors inline-flex items-center gap-1"
             >
