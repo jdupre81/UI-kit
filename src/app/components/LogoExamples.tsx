@@ -153,7 +153,6 @@ export function LogoExamples() {
           </div>
         </div>
 
-          </div>
           {/* Logo Long Version */}
           <div className="space-y-3">
             <p className="text-sm font-semibold text-[#000000] dark:text-white">
