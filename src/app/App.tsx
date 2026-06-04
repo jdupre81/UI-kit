@@ -634,8 +634,9 @@ export default function App() {
                   alt="SDSC Logo"
                   className="h-8"
                 />
-              <br />
-                <p
+              </div>
+              <div className="flex items-center gap-1 mb-4">
+              <p
                 className="text-sm text-white leading-relaxed"
                 style={{ fontFamily: "Switzer, sans-serif" }}
               >
@@ -644,7 +645,6 @@ export default function App() {
                 Tailwind CSS.
               </p>
               </div>
-
             </div>
             <div>
               <h4 className="text-[14px] font-semibold text-white mb-3">
