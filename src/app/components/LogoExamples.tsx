@@ -70,8 +70,8 @@ export function LogoExamples() {
           <div className="space-y-2">
             <div className="bg-[#000000] rounded-none border border-[#E5E5E5] dark:border-[#404040] p-8 flex flex-col items-center gap-3">
               <img
-                src={logoCompactWhite}
-                alt="SDSC Logo Compact - White"
+                src={logoShortWhite}
+                alt="SDSC Logo Short - White"
                 className="h-16"
               />
               <p className="text-xs text-gray-400">
