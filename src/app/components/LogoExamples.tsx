@@ -54,7 +54,7 @@ export function LogoExamples() {
                 className="h-16"
               />
               <p className="text-xs text-[#848484] dark:text-gray-300">
-                Logo (short version) on white background
+                Logo (compact version) on white background
               </p>
             </div>
             <a
@@ -75,7 +75,7 @@ export function LogoExamples() {
                 className="h-16"
               />
               <p className="text-xs text-gray-400">
-                Logo (short version) on dark background
+                Logo (compact version) on dark background
               </p>
             </div>
             <a
