@@ -1,7 +1,13 @@
 import logoColor from "/src/imports/SDSC_logo_horizontal_rgb_colors.png";
 import logoWhite from "/src/imports/SDSC_logo_horizontal_rgb_white.png";
+        {/* Logo Compact version */}
 import logoCompactColor from "/src/imports/SDSC_LogoCompact_RGB.png";
 import logoCompactWhite from "/src/imports/SDSC_LogoCompact_White.png";
+
+        {/* Logo short version */}
+import logoShortColor from "/src/imports/SDSC_Logo_RGB.png";
+import logoShortWhite from "/src/imports/SDSC_Logo_White.png";
+
 import ethLogo from "/src/imports/eth_logo_kurz_pos.png";
 import epflLogo from "/src/imports/EPFL_Logo_Digital_RGB_PROD.png";
 import psiLogo from "/src/imports/PSI_Logo_01_Standard_Positive_RGB.png";
