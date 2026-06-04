@@ -314,8 +314,8 @@ export function LogoExamples() {
           <div className="bg-white dark:bg-[#2d2d2d] rounded-none border border-[#E5E5E5] dark:border-[#404040] p-8">
             <div className="flex flex-wrap items-center justify-center gap-12">
               <img
-                src={ethLogo}
-                alt="ETH Zürich"
+                src={screenshotLucid}
+                alt="Lucid"
                 className="h-6"
               />
               <img src={epflLogo} alt="EPFL" className="h-9" />
