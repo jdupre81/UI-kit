@@ -29,11 +29,11 @@ export function LogoExamples() {
           <div>
 
          <p className="text-sm font-semibold text-[#000000] dark:text-white">
-            Logo (Short version)
+            Short version (primary logo)
           </p>
           <div>
             <p className="text-sm text-[#000000] dark:text-white">
-              Copy copy
+              The short version is the preferred and primary logo. It should be used whenever space allows, as it best represents the SDSC brand in a clear and recognisable way. Prioritise this version in all standard applications such as headers, marketing materials, and digital interfaces where legibility is not constrained.
             </p>
           </div>
         </div>
@@ -91,18 +91,11 @@ export function LogoExamples() {
           <div>
 
          <p className="text-sm font-semibold text-[#000000] dark:text-white">
-            Logo (Compact version)
+            Compact version (alternative option)
           </p>
           <div>
             <p className="text-sm text-[#000000] dark:text-white">
-              Use the short SDSC logo in situations where space
-              is limited or legibility of the full logo may be
-              compromised. Typical applications include
-              favicons, social media profile images, small
-              digital interfaces, merchandise, and other compact
-              formats. Ensure the logo remains clear,
-              recognizable, and maintains sufficient clear space
-              around it.
+              The compact version is the recommended alternative when horizontal or vertical space is limited. It maintains brand recognition while adapting to tighter layouts. Use it in UI components, toolbars, small headers, or situations where the short version would feel visually crowded or exceed available space.
             </p>
           </div>
         </div>
@@ -155,16 +148,10 @@ export function LogoExamples() {
           {/* Logo Long Version */}
           <div className="space-y-3">
             <p className="text-sm font-semibold text-[#000000] dark:text-white">
-              Logo (long version)
+              Long version (full logo)
             </p>
               <p className="text-sm text-[#000000] dark:text-white">
-              If possible, use long logo version in first
-              appearance and then continue with short logo
-              version. However, depending on the platform
-              parameters and partnership agreement, we might not
-              have enough space or need to list more than one
-              partner logo next to SDSC - in this case: the
-              short logo version is preferred.
+              The long version is the most complete expression of the logo and should be used in contexts where full brand presentation is important and space is not restricted. It is best suited for formal applications such as cover pages, presentations, editorial layouts, or institutional documents where the full name reinforces clarity and brand presence.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {/* Logo on White Background */}
