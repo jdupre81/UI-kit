@@ -11,6 +11,9 @@ import logoShortWhite from "/src/imports/SDSC_Logo_White.png";
         {/* Partner logos screenshot Lucid */}
 import screenshotLucid from "/src/imports/screenshot_lucid.png";
 
+        {/* Partner logos screenshot Imaging Plaza */}
+import screenshotImagingPlaza from "/src/imports/screenshotImagingPlaza";
+
 import ethLogo from "/src/imports/eth_logo_kurz_pos.png";
 import epflLogo from "/src/imports/EPFL_Logo_Digital_RGB_PROD.png";
 import psiLogo from "/src/imports/PSI_Logo_01_Standard_Positive_RGB.png";
@@ -313,48 +316,23 @@ export function LogoExamples() {
           {/* Partner logos on white */}
           <div className="bg-white dark:bg-[#2d2d2d] rounded-none border border-[#E5E5E5] dark:border-[#404040] p-8">
             <div className="flex flex-wrap items-center justify-center gap-12">
+              <p>Some examples from the project Lucid and Imaging Plaza</p>
               <img
                 src={screenshotLucid}
                 alt="Lucid"
               />
-            </div>
-          </div>
 
-          {/* Partner logos on dark */}
-          <div className="bg-[#000000] rounded-none border border-[#E5E5E5] dark:border-[#404040] p-8">
-            <div className="flex flex-wrap items-center justify-center gap-12">
-              <img
-                src={screenshotLucid}
+               <img
+                src={screenshotImagingPlaza}
                 alt="Lucid"
-                className="h-6"
-                style={{ filter: "brightness(0) invert(1)" }}
-              />
-              <img
-                src={epflLogo}
-                alt="EPFL"
-                className="h-9"
-                style={{ filter: "brightness(0) invert(1)" }}
-              />
-              <img
-                src={psiLogo}
-                alt="PSI"
-                className="h-11"
-                style={{ filter: "brightness(0) invert(1)" }}
-              />
-              <img
-                src={biopoleLogo}
-                alt="Biopôle Lausanne"
-                className="h-7"
-                style={{ filter: "brightness(0) invert(1)" }}
               />
             </div>
           </div>
-        </div>
 
         {/* Partner Logo Guidelines */}
         <div className="bg-[#dddeec] rounded-none p-6">
           <h4 className="text-sm font-bold text-[#000000] mb-3">
-            Partner Logo Guidelines
+            General Partner Logo Guidelines
           </h4>
           <ul className="text-sm space-y-2 text-[#000000]">
             <li>
