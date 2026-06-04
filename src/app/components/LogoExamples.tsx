@@ -26,6 +26,68 @@ export function LogoExamples() {
         {/* Logo */}
         <div className="space-y-3">
           <div>
+
+         <p className="text-sm font-semibold text-[#000000] dark:text-white">
+            Logo (Compact version)
+          </p>
+          <div>
+            <p className="text-sm text-[#000000] dark:text-white">
+              Use the short SDSC logo in situations where space
+              is limited or legibility of the full logo may be
+              compromised. Typical applications include
+              favicons, social media profile images, small
+              digital interfaces, merchandise, and other compact
+              formats. Ensure the logo remains clear,
+              recognizable, and maintains sufficient clear space
+              around it.
+            </p>
+          </div>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          {/* Logo on White Background */}
+          <div className="space-y-2">
+            <div className="bg-white dark:bg-[#2d2d2d] rounded-none border border-[#E5E5E5] dark:border-[#404040] p-8 flex flex-col items-center gap-3">
+              <img
+                src={logoCompactColor}
+                alt="SDSC Logo Compact - Color"
+                className="h-16"
+              />
+              <p className="text-xs text-[#848484] dark:text-gray-300">
+                Logo (short version) on white background
+              </p>
+            </div>
+            <a
+              href={logoCompactColor}
+              download
+              className="text-xs text-[#5461a6] dark:text-[#93c5fd] hover:text-[#26245c] dark:hover:text-white transition-colors inline-flex items-center gap-1"
+            >
+              Download →
+            </a>
+          </div>
+
+          {/* Logo short version on dark */}
+          <div className="space-y-2">
+            <div className="bg-[#000000] rounded-none border border-[#E5E5E5] dark:border-[#404040] p-8 flex flex-col items-center gap-3">
+              <img
+                src={logoCompactWhite}
+                alt="SDSC Logo Compact - White"
+                className="h-16"
+              />
+              <p className="text-xs text-gray-400">
+                Logo (short version) on dark background
+              </p>
+            </div>
+            <a
+              href={logoCompactWhite}
+              download
+              className="text-xs text-[#5461a6] dark:text-[#93c5fd] hover:text-[#26245c] dark:hover:text-white transition-colors inline-flex items-center gap-1"
+            >
+              Download →
+            </a>
+          </div>
+        </div>
+
             <p className="text-sm text-[#000000] dark:text-white">
               If possible, use long logo version in first
               appearance and then continue with short logo
@@ -122,67 +184,6 @@ export function LogoExamples() {
               </p>
             </div>
           </div>
-
-          <p className="text-sm font-semibold text-[#000000] dark:text-white">
-            Logo (Compact version)
-          </p>
-          <div>
-            <p className="text-sm text-[#000000] dark:text-white">
-              Use the short SDSC logo in situations where space
-              is limited or legibility of the full logo may be
-              compromised. Typical applications include
-              favicons, social media profile images, small
-              digital interfaces, merchandise, and other compact
-              formats. Ensure the logo remains clear,
-              recognizable, and maintains sufficient clear space
-              around it.
-            </p>
-          </div>
-        </div>
-
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          {/* Logo on White Background */}
-          <div className="space-y-2">
-            <div className="bg-white dark:bg-[#2d2d2d] rounded-none border border-[#E5E5E5] dark:border-[#404040] p-8 flex flex-col items-center gap-3">
-              <img
-                src={logoCompactColor}
-                alt="SDSC Logo Compact - Color"
-                className="h-16"
-              />
-              <p className="text-xs text-[#848484] dark:text-gray-300">
-                Logo (short version) on white background
-              </p>
-            </div>
-            <a
-              href={logoCompactColor}
-              download
-              className="text-xs text-[#5461a6] dark:text-[#93c5fd] hover:text-[#26245c] dark:hover:text-white transition-colors inline-flex items-center gap-1"
-            >
-              Download →
-            </a>
-          </div>
-
-          {/* Logo short version on dark */}
-          <div className="space-y-2">
-            <div className="bg-[#000000] rounded-none border border-[#E5E5E5] dark:border-[#404040] p-8 flex flex-col items-center gap-3">
-              <img
-                src={logoCompactWhite}
-                alt="SDSC Logo Compact - White"
-                className="h-16"
-              />
-              <p className="text-xs text-gray-400">
-                Logo (short version) on dark background
-              </p>
-            </div>
-            <a
-              href={logoCompactWhite}
-              download
-              className="text-xs text-[#5461a6] dark:text-[#93c5fd] hover:text-[#26245c] dark:hover:text-white transition-colors inline-flex items-center gap-1"
-            >
-              Download →
-            </a>
-          </div>
-        </div>
 
         {/* Logo Guidelines */}
         <div className="bg-[#F7F7F8] dark:bg-[#1a1a1a] rounded-none border border-[#E5E5E5] dark:border-[#404040] p-6">
