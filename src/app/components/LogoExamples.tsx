@@ -79,7 +79,7 @@ export function LogoExamples() {
               </p>
             </div>
             <a
-              href={logoCompactWhite}
+              href={logoShortWhite}
               download
               className="text-xs text-[#5461a6] dark:text-[#93c5fd] hover:text-[#26245c] dark:hover:text-white transition-colors inline-flex items-center gap-1"
             >
