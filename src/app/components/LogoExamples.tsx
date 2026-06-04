@@ -324,7 +324,10 @@ export function LogoExamples() {
                 src={screenshotLucid}
                 alt="Lucid"
               />
-
+                <img
+                src={screenshotImagingPlaza}
+                alt="Lucid"
+              />
             </div>
           </div>
 
