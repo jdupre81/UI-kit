@@ -633,8 +633,7 @@ export default function App() {
                   alt="SDSC Logo"
                   className="h-8"
                 />
-              </div>
-              <p
+                <p
                 className="text-sm text-white leading-relaxed"
                 style={{ fontFamily: "Switzer, sans-serif" }}
               >
@@ -642,6 +641,8 @@ export default function App() {
                 modern data-driven applications with React and
                 Tailwind CSS.
               </p>
+              </div>
+
             </div>
             <div>
               <h4 className="text-[14px] font-semibold text-white mb-3">
