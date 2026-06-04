@@ -634,16 +634,8 @@ export default function App() {
                   alt="SDSC Logo"
                   className="h-8"
                 />
+                </p>
               </div>
-
-              <p
-                className="text-sm text-white leading-relaxed"
-                style={{ fontFamily: "Switzer, sans-serif" }}
-              >
-                A comprehensive design system for building
-                modern data-driven applications with React and
-                Tailwind CSS.
-              </p>
 
             </div>
             <div>
