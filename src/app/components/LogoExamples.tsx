@@ -34,7 +34,7 @@ export function LogoExamples() {
         </p>
       </div>
 
-<div>
+  <div>
         {/* Logo short version */}
 
         <div className="space-y-3">
@@ -49,6 +49,7 @@ export function LogoExamples() {
             </p>
           </div>
         </div>
+        
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {/* Logo on White Background */}
@@ -94,7 +95,7 @@ export function LogoExamples() {
           </div>
         </div>
 
-          </div>
+      </div>
 </div>
 
       <div className="space-y-8">
@@ -369,6 +370,7 @@ export function LogoExamples() {
           </ul>
         </div>
       </div>
-    </section>
-  );
+    </div>
+  </section>
+);
 }
