@@ -116,13 +116,13 @@ export function LogoExamples() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {/* Logo on White Background */}
           <div className="space-y-2">
-            <div className="bg-white dark:bg-[#2d2d2d] rounded-none border border-[#E5E5E5] dark:border-[#404040] p-8 flex flex-col items-center gap-3">
+            <div className="bg-white dark:bg-[#ffffff] rounded-none border border-[#E5E5E5] dark:border-[#404040] p-8 flex flex-col items-center gap-3">
               <img
                 src={logoCompactColor}
                 alt="SDSC Logo Compact - Color"
                 className="h-16"
               />
-              <p className="text-xs text-[#848484] dark:text-gray-300">
+              <p className="text-xs text-[#848484] dark:text-gray-100">
                 Logo (compact version) on white background
               </p>
             </div>
