@@ -635,7 +635,7 @@ export default function App() {
                   className="h-8"
                 />
               </div>
-              <div className="flex items-center gap-1 mb-4">
+
               <p
                 className="text-sm text-white leading-relaxed"
                 style={{ fontFamily: "Switzer, sans-serif" }}
@@ -644,7 +644,7 @@ export default function App() {
                 modern data-driven applications with React and
                 Tailwind CSS.
               </p>
-              </div>
+
             </div>
             <div>
               <h4 className="text-[14px] font-semibold text-white mb-3">
