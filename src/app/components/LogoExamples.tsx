@@ -8,6 +8,9 @@ import logoCompactWhite from "/src/imports/SDSC_LogoCompact_White.png";
 import logoShortColor from "/src/imports/SDSC_Logo_RGB.png";
 import logoShortWhite from "/src/imports/SDSC_Logo_White.png";
 
+        {/* Partner logos screenshot Lucid */}
+import screenshotLucid from "/src/imports/screenshot_lucid.png";
+
 import ethLogo from "/src/imports/eth_logo_kurz_pos.png";
 import epflLogo from "/src/imports/EPFL_Logo_Digital_RGB_PROD.png";
 import psiLogo from "/src/imports/PSI_Logo_01_Standard_Positive_RGB.png";
@@ -329,8 +332,8 @@ export function LogoExamples() {
           <div className="bg-[#000000] rounded-none border border-[#E5E5E5] dark:border-[#404040] p-8">
             <div className="flex flex-wrap items-center justify-center gap-12">
               <img
-                src={ethLogo}
-                alt="ETH Zürich"
+                src={screenshotLucid}
+                alt="Lucid"
                 className="h-6"
                 style={{ filter: "brightness(0) invert(1)" }}
               />
