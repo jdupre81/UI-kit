@@ -316,7 +316,6 @@ export function LogoExamples() {
               <img
                 src={screenshotLucid}
                 alt="Lucid"
-                className="h-1"
               />
             </div>
           </div>
