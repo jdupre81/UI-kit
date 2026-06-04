@@ -629,12 +629,12 @@ export default function App() {
             <div className="md:col-span-2">
               <div className="flex items-center gap-1 mb-4">
                 <p>
-                <img
+                  <img
                   src={logoWhite}
                   alt="SDSC Logo"
                   className="h-8"
                 />
-                </p>
+              </br>
                 <p
                 className="text-sm text-white leading-relaxed"
                 style={{ fontFamily: "Switzer, sans-serif" }}
