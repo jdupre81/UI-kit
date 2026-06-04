@@ -316,14 +316,7 @@ export function LogoExamples() {
               <img
                 src={screenshotLucid}
                 alt="Lucid"
-                className="h-6"
-              />
-              <img src={epflLogo} alt="EPFL" className="h-9" />
-              <img src={psiLogo} alt="PSI" className="h-11" />
-              <img
-                src={biopoleLogo}
-                alt="Biopôle Lausanne"
-                className="h-7"
+                className="h-1"
               />
             </div>
           </div>
