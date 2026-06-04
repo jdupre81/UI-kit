@@ -634,7 +634,7 @@ export default function App() {
                   alt="SDSC Logo"
                   className="h-8"
                 />
-              </br>
+              <br />
                 <p
                 className="text-sm text-white leading-relaxed"
                 style={{ fontFamily: "Switzer, sans-serif" }}
