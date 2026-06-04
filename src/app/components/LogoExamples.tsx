@@ -11,8 +11,8 @@ import logoShortWhite from "/src/imports/SDSC_Logo_White.png";
         {/* Partner logos screenshot Lucid */}
 import screenshotLucid from "/src/imports/screenshot_lucid.png";
 
-        {/* Partner logos screenshot Imaging Plaza */}
-import screenshotImagingPlaza from "/src/imports/screenshot_imagingPlaza.png";
+        {/* Partner logos screenshot Imaging Plaza 
+import screenshotImagingPlaza from "/src/imports/screenshot_imagingPlaza.png";*/}
 
 import ethLogo from "/src/imports/eth_logo_kurz_pos.png";
 import epflLogo from "/src/imports/EPFL_Logo_Digital_RGB_PROD.png";
@@ -313,18 +313,20 @@ export function LogoExamples() {
             Indicating the creators of the project / platform. If the application or platform being built is a collaborative project of SDSC with another partners or more than one partner, please display the partner logos in footer section in equal size on one line next to each other (from left to right). As a rule of thumb, the main project owner / partner - if not SDSC - should be listed first on the left. If thre's more than 10 logos, exceeding one line - the logo line should continue on a 2nd or 3rd line
           </p>
 
-          {/* Partner logos on white */}
+          {/* Project Partner logos */}
           <div className="bg-white dark:bg-[#2d2d2d] rounded-none border border-[#E5E5E5] dark:border-[#404040] p-8">
             <div className="flex flex-wrap items-center justify-center gap-12">
-              
+              <p "text-sm font-semibold text-[#000000] dark:text-white">
+                Some examples from the project Lucid and Imaging Plaza
+              </p>
               <img
                 src={screenshotLucid}
                 alt="Lucid"
               />
-               <img
+              {/* <img
                 src={screenshotImagingPlaza}
                 alt="Imaging"
-              />
+              /> */}
             </div>
           </div>
 
