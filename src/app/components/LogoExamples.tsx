@@ -21,25 +21,8 @@ export function LogoExamples() {
           Official logo and brand identity guidelines
         </p>
       </div>
-    <div>
-          <p className="text-sm font-semibold text-[#000000] dark:text-white">
-            Logo (Compact version)
-          </p>
-          <div>
-            <p className="text-sm text-[#000000] dark:text-white">
-              Use the short SDSC logo in situations where space
-              is limited or legibility of the full logo may be
-              compromised. Typical applications include
-              favicons, social media profile images, small
-              digital interfaces, merchandise, and other compact
-              formats. Ensure the logo remains clear,
-              recognizable, and maintains sufficient clear space
-              around it.
-            </p>
-          </div>
-        </div>
 
-              <div className="space-y-8">
+      <div className="space-y-8">
         {/* Logo */}
         <div className="space-y-3">
           <div>
@@ -139,6 +122,23 @@ export function LogoExamples() {
               </p>
             </div>
           </div>
+
+          <p className="text-sm font-semibold text-[#000000] dark:text-white">
+            Logo (Compact version)
+          </p>
+          <div>
+            <p className="text-sm text-[#000000] dark:text-white">
+              Use the short SDSC logo in situations where space
+              is limited or legibility of the full logo may be
+              compromised. Typical applications include
+              favicons, social media profile images, small
+              digital interfaces, merchandise, and other compact
+              formats. Ensure the logo remains clear,
+              recognizable, and maintains sufficient clear space
+              around it.
+            </p>
+          </div>
+        </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {/* Logo on White Background */}
