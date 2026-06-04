@@ -1,18 +1,18 @@
 import logoColor from "/src/imports/SDSC_logo_horizontal_rgb_colors.png";
 import logoWhite from "/src/imports/SDSC_logo_horizontal_rgb_white.png";
-        {/* Logo Compact version */}
+        //Logo Compact version
 import logoCompactColor from "/src/imports/SDSC_LogoCompact_RGB.png";
 import logoCompactWhite from "/src/imports/SDSC_LogoCompact_White.png";
 
-        {/* Logo short version */}
+        //Logo short version
 import logoShortColor from "/src/imports/SDSC_Logo_RGB.png";
 import logoShortWhite from "/src/imports/SDSC_Logo_White.png";
 
-        {/* Partner logos screenshot Lucid */}
+        //Partner logos screenshot Lucid
 import screenshotLucid from "/src/imports/screenshot_lucid.png";
 
-        {/* Partner logos screenshot Imaging Plaza 
-import screenshotImagingPlaza from "/src/imports/screenshot_imagingPlaza.png";*/}
+        //Partner logos screenshot Imaging Plaza 
+import screenshotImagingPlaza from "/src/imports/screenshot_imagingPlaza.png";
 
 import ethLogo from "/src/imports/eth_logo_kurz_pos.png";
 import epflLogo from "/src/imports/EPFL_Logo_Digital_RGB_PROD.png";
@@ -323,10 +323,7 @@ export function LogoExamples() {
                 src={screenshotLucid}
                 alt="Lucid"
               />
-              {/* <img
-                src={screenshotImagingPlaza}
-                alt="Imaging"
-              /> */}
+
             </div>
           </div>
 
