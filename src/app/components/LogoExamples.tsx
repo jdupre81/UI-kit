@@ -318,7 +318,7 @@ export function LogoExamples() {
           <div className="bg-white dark:bg-[#2d2d2d] rounded-none border border-[#E5E5E5] dark:border-[#404040] p-8">
             <div className="flex flex-wrap items-center justify-center gap-12">
               <p className="text-sm font-semibold text-[#000000] dark:text-white">
-                Some examples from the project Lucid and Imaging Plaza
+                Some examples from the projects Lucid and Imaging Plaza
               </p>
               <img
                 src={screenshotLucid}
