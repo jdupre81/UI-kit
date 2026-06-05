@@ -151,30 +151,45 @@ export function ButtonComponents() {
         </ButtonExample>
 
         {/* Size Variants */}
-        <ButtonExample
-          label="Size Variants"
-          description="Different button sizes for various contexts"
-        >
-          <button
-            style={{ fontFamily: "Switzer, sans-serif" }}
-            className="uppercase px-4 py-2 bg-[#5461a6] text-white rounded-none hover:bg-[#26245c] transition-colors"
-          >
-            Small
-          </button>
-          <button
-            style={{ fontFamily: "Switzer, sans-serif" }}
-            className="uppercase px-6 py-3 bg-[#5461a6] text-white rounded-none hover:bg-[#26245c] transition-colors"
-          >
-            Medium
-          </button>
-          <button
-            style={{ fontFamily: "Switzer, sans-serif" }}
-            className="uppercase px-8 py-4 text-lg bg-[#5461a6] text-white rounded-none hover:bg-[#26245c] transition-colors"
-          >
-            Large
-          </button>
-        </ButtonExample>
-      </div>
+<ButtonExample
+  label="Size Variants"
+  description="Different button sizes for various contexts"
+>
+  <button
+    style={{ fontFamily: "Switzer, sans-serif" }}
+    className="btn-primary btn-xs rounded-none"
+  >
+    XS
+  </button>
+
+  <button
+    style={{ fontFamily: "Switzer, sans-serif" }}
+    className="btn-primary btn-sm rounded-none"
+  >
+    SM
+  </button>
+
+  <button
+    style={{ fontFamily: "Switzer, sans-serif" }}
+    className="btn-primary btn-md rounded-none"
+  >
+    MD
+  </button>
+
+  <button
+    style={{ fontFamily: "Switzer, sans-serif" }}
+    className="btn-primary btn-lg rounded-none"
+  >
+    LG
+  </button>
+
+  <button
+    style={{ fontFamily: "Switzer, sans-serif" }}
+    className="btn-primary btn-xl rounded-none"
+  >
+    XL
+  </button>
+</ButtonExample>
 
       <div className="bg-[#F7F7F8] dark:bg-[#1a1a1a] rounded-none border border-[#E5E5E5] dark:border-[#404040] p-6 mt-8">
         <h3 className="text-sm font-semibold mb-3 text-[#000000] dark:text-white">

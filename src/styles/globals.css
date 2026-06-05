@@ -197,3 +197,29 @@ html {
 button {
   @apply rounded-sm;
 }
+
+@layer components {
+  .btn-primary {
+    @apply uppercase bg-[#5461a6] text-white transition-all hover:bg-[#26245c];
+  }
+
+  .btn-xs {
+    @apply h-7 min-h-7 px-2 text-xs;
+  }
+
+  .btn-sm {
+    @apply h-8 min-h-8 px-3 text-sm;
+  }
+
+  .btn-md {
+    @apply h-10 min-h-10 px-4 text-sm;
+  }
+
+  .btn-lg {
+    @apply h-12 min-h-12 px-5 text-base;
+  }
+
+  .btn-xl {
+    @apply h-14 min-h-14 px-6 text-lg;
+  }
+}
