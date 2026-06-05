@@ -52,14 +52,14 @@ export function ButtonComponents() {
           <div>
             <button
               style={{ fontFamily: "Switzer, sans-serif" }}
-              className="uppercase px-6 py-3 bg-[#4B4B7F] text-white rounded-none shadow-lg focus:outline-2 focus:outline-offset-2 focus:outline-[#5461a6]"
+              className="btn-lg uppercase bg-[#4B4B7F] text-white rounded-none shadow-lg focus:outline-2 focus:outline-offset-2 focus:outline-[#5461a6]"
             >
               Hovered (press me)
             </button>
           </div>
           <button
             style={{ fontFamily: "Switzer, sans-serif" }}
-            className="uppercase px-6 py-3 bg-[#999999] text-white rounded-none opacity-50 cursor-not-allowed"
+            className="btn-lg uppercase bg-[#999999] text-white rounded-none opacity-50 cursor-not-allowed"
           >
             Disabled
           </button>
@@ -72,19 +72,19 @@ export function ButtonComponents() {
         >
           <button
             style={{ fontFamily: "Switzer, sans-serif" }}
-            className="uppercase px-6 py-3 bg-white dark:bg-[#2d2d2d] text-[#5461a6] dark:text-[#93c5fd] border-2 border-[#5461a6] rounded-none hover:bg-[#F7F7F8] dark:bg-[#1a1a1a] active:bg-[#E5E5E5] transition-all"
+            className="btn-lg uppercase bg-white dark:bg-[#2d2d2d] text-[#5461a6] dark:text-[#93c5fd] border-2 border-[#5461a6] rounded-none hover:bg-[#F7F7F8] dark:bg-[#1a1a1a] active:bg-[#E5E5E5] transition-all"
           >
             Normal (hover me)
           </button>
           <button
             style={{ fontFamily: "Switzer, sans-serif" }}
-            className="uppercase px-6 py-3 bg-[#E5E5E5] text-[#5461a6] dark:text-[#93c5fd] border-2 border-[#5461a6] rounded-none focus:outline-2 focus:outline-offset-2 focus:outline-[#5461a6]"
+            className="btn-lg uppercase bg-[#E5E5E5] text-[#5461a6] dark:text-[#93c5fd] border-2 border-[#5461a6] rounded-none focus:outline-2 focus:outline-offset-2 focus:outline-[#5461a6]"
           >
             Hovered (press me)
           </button>
           <button
             style={{ fontFamily: "Switzer, sans-serif" }}
-            className="uppercase px-6 py-3 bg-white dark:bg-[#2d2d2d] text-[#999999] dark:text-gray-400 border-2 border-[#E5E5E5] dark:border-[#404040] rounded-none opacity-50 cursor-not-allowed"
+            className="btn-lg uppercase bg-white dark:bg-[#2d2d2d] text-[#999999] dark:text-gray-400 border-2 border-[#E5E5E5] dark:border-[#404040] rounded-none opacity-50 cursor-not-allowed"
           >
             Disabled
           </button>
@@ -97,19 +97,19 @@ export function ButtonComponents() {
         >
           <button
             style={{ fontFamily: "Switzer, sans-serif" }}
-            className="uppercase px-4 py-2 text-[#5461a6] dark:text-[#93c5fd] hover:bg-[#F7F7F8] dark:bg-[#1a1a1a] rounded-none transition-colors"
+            className="btn-lg uppercase text-[#5461a6] dark:text-[#93c5fd] hover:bg-[#F7F7F8] dark:bg-[#1a1a1a] rounded-none transition-colors"
           >
             Normal
           </button>
           <button
             style={{ fontFamily: "Switzer, sans-serif" }}
-            className="uppercase px-4 py-2 text-[#26245c] dark:text-[#26245c] bg-[#F7F7F8] dark:bg-[#1a1a1a] rounded-none"
+            className="btn-lg uppercase text-[#26245c] dark:text-[#26245c] bg-[#F7F7F8] dark:bg-[#1a1a1a] rounded-none"
           >
             Hover
           </button>
           <button
             style={{ fontFamily: "Switzer, sans-serif" }}
-            className="uppercase px-4 py-2 text-[#999999] dark:text-gray-400 rounded-none cursor-not-allowed opacity-50"
+            className="btn-lg uppercase text-[#999999] dark:text-gray-400 rounded-none cursor-not-allowed opacity-50"
           >
             Disabled
           </button>
@@ -122,7 +122,7 @@ export function ButtonComponents() {
         >
           <button
             style={{ fontFamily: "Switzer, sans-serif" }}
-            className="uppercase flex items-center gap-2 px-6 py-3 bg-[#5461a6] text-white rounded-none hover:bg-[#26245c] transition-all shadow-sm hover:shadow-md"
+            className="btn-lg uppercase flex items-center gap-2 bg-[#5461a6] text-white rounded-none hover:bg-[#26245c] transition-all shadow-sm hover:shadow-md"
           >
             <ArrowLeft className="w-5 h-5" />
             Back
@@ -130,7 +130,7 @@ export function ButtonComponents() {
 
           <button
             style={{ fontFamily: "Switzer, sans-serif" }}
-            className="uppercase uppercase text-lg flex items-center gap-2 px-6 py-3 bg-white dark:bg-[#2d2d2d] text-[#5461a6] dark:text-[#93c5fd] border-2 border-[#5461a6] rounded-none hover:bg-[#F7F7F8] dark:bg-[#1a1a1a] active:bg-[#E5E5E5] transition-all"
+            className="btn-lg uppercase uppercase text-lg flex items-center gap-2 bg-white dark:bg-[#2d2d2d] text-[#5461a6] dark:text-[#93c5fd] border-2 border-[#5461a6] rounded-none hover:bg-[#F7F7F8] dark:bg-[#1a1a1a] active:bg-[#E5E5E5] transition-all"
           >
             Continue
             <ArrowLeft className="w-5 h-5 rotate-180" />
@@ -144,7 +144,7 @@ export function ButtonComponents() {
         >
           <button
             style={{ fontFamily: "Switzer, sans-serif" }}
-            className="uppercase w-14 h-14 bg-[#5461a6] text-white rounded-full flex items-center justify-center hover:bg-[#26245c] active:scale-95 transition-all shadow-lg hover:shadow-xl"
+            className="btn-lg uppercase bg-[#5461a6] text-white rounded-full flex items-center justify-center hover:bg-[#26245c] active:scale-95 transition-all shadow-lg hover:shadow-xl"
           >
             <ArrowDown className="w-6 h-6" />
           </button>
