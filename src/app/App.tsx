@@ -678,7 +678,7 @@ export default function App() {
               Grotesk + Switzer
             </p>
             <p className="text-xs text-gray-600 mt-2">
-              Enabling data-driven design and innovation
+              Version 1 - June, 2026
             </p>
           </div>
         </div>
