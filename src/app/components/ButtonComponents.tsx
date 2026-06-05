@@ -149,47 +149,47 @@ export function ButtonComponents() {
             <ArrowDown className="w-6 h-6" />
           </button>
         </ButtonExample>
-
+      </div>
         {/* Size Variants */}
-<ButtonExample
-  label="Size Variants"
-  description="Different button sizes for various contexts"
->
-  <button
-    style={{ fontFamily: "Switzer, sans-serif" }}
-    className="btn-primary btn-xs rounded-none"
-  >
-    XS
-  </button>
+      <ButtonExample
+        label="Size Variants"
+        description="Different button sizes for various contexts"
+      >
+        <button
+          style={{ fontFamily: "Switzer, sans-serif" }}
+          className="btn-primary btn-xs rounded-none"
+        >
+          XS
+        </button>
 
-  <button
-    style={{ fontFamily: "Switzer, sans-serif" }}
-    className="btn-primary btn-sm rounded-none"
-  >
-    SM
-  </button>
+        <button
+          style={{ fontFamily: "Switzer, sans-serif" }}
+          className="btn-primary btn-sm rounded-none"
+        >
+          SM
+        </button>
 
-  <button
-    style={{ fontFamily: "Switzer, sans-serif" }}
-    className="btn-primary btn-md rounded-none"
-  >
-    MD
-  </button>
+        <button
+          style={{ fontFamily: "Switzer, sans-serif" }}
+          className="btn-primary btn-md rounded-none"
+        >
+          MD
+        </button>
 
-  <button
-    style={{ fontFamily: "Switzer, sans-serif" }}
-    className="btn-primary btn-lg rounded-none"
-  >
-    LG
-  </button>
+        <button
+          style={{ fontFamily: "Switzer, sans-serif" }}
+          className="btn-primary btn-lg rounded-none"
+        >
+          LG
+        </button>
 
-  <button
-    style={{ fontFamily: "Switzer, sans-serif" }}
-    className="btn-primary btn-xl rounded-none"
-  >
-    XL
-  </button>
-</ButtonExample>
+        <button
+          style={{ fontFamily: "Switzer, sans-serif" }}
+          className="btn-primary btn-xl rounded-none"
+        >
+          XL
+        </button>
+      </ButtonExample>
 
       <div className="bg-[#F7F7F8] dark:bg-[#1a1a1a] rounded-none border border-[#E5E5E5] dark:border-[#404040] p-6 mt-8">
         <h3 className="text-sm font-semibold mb-3 text-[#000000] dark:text-white">
