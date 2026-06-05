@@ -157,9 +157,9 @@ export function ButtonComponents() {
         >
           <button
             style={{ fontFamily: "Switzer, sans-serif" }}
-            className="btn-xs uppercase px-4 py-2 bg-[#5461a6] text-white rounded-none hover:bg-[#26245c] transition-colors"
+            className="uppercase px-4 py-2 bg-[#5461a6] text-white rounded-none hover:bg-[#26245c] transition-colors"
           >
-            Button Small
+            Small
           </button>
           <button
             style={{ fontFamily: "Switzer, sans-serif" }}
@@ -169,7 +169,7 @@ export function ButtonComponents() {
           </button>
           <button
             style={{ fontFamily: "Switzer, sans-serif" }}
-            className="btn btn-lg uppercase px-8 py-4 text-lg bg-[#5461a6] text-white rounded-none hover:bg-[#26245c] transition-colors"
+            className="uppercase px-8 py-4 text-lg bg-[#5461a6] text-white rounded-none hover:bg-[#26245c] transition-colors"
           >
             Large
           </button>
