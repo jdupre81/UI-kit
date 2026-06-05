@@ -52,7 +52,7 @@ export function FormInputs() {
               <textarea
                 rows={4}
                 placeholder="Enter description..."
-                className="w-full px-4 py-2 border border-[#E5E5E5] dark:border-[#404040] bg-white dark:bg-[#1a1a1a] text-[#000000] dark:text-white placeholder-[#848484] dark:placeholder-gray-100 focus:outline-none focus:border-[#5461a6] dark:focus:border-[#93c5fd] transition-colors resize-vertical"
+                className="w-full px-4 py-2 border border-[#E5E5E5] dark:border-[#404040] bg-white dark:bg-[#1a1a1a] text-[#000000] dark:text-white placeholder-[#848484] dark:placeholder-gray-400 focus:outline-none focus:border-[#5461a6] dark:focus:border-[#93c5fd] transition-colors resize-vertical"
                 style={{ fontFamily: "Switzer, sans-serif", borderRadius: "4px" }}
               />
             </div>
