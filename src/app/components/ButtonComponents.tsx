@@ -130,7 +130,7 @@ export function ButtonComponents() {
 
           <button
             style={{ fontFamily: "Switzer, sans-serif" }}
-            className="uppercase uppercase flex items-center gap-2 px-6 py-3 bg-white dark:bg-[#2d2d2d] text-[#5461a6] dark:text-[#93c5fd] border-2 border-[#5461a6] rounded-none hover:bg-[#F7F7F8] dark:bg-[#1a1a1a] active:bg-[#E5E5E5] transition-all"
+            className="uppercase uppercase flex items-center text-sm gap-2 px-6 py-3 bg-white dark:bg-[#2d2d2d] text-[#5461a6] dark:text-[#93c5fd] border-2 border-[#5461a6] rounded-none hover:bg-[#F7F7F8] dark:bg-[#1a1a1a] active:bg-[#E5E5E5] transition-all"
           >
             Continue
             <ArrowLeft className="w-5 h-5 rotate-180" />
