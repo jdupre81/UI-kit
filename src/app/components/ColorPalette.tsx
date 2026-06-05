@@ -582,8 +582,7 @@ export function ColorPalette() {
                 <span className="font-semibold">
                   Green (#90ca42):
                 </span>{" "}
-                Accent color, highlights, call-to-action
-                elements
+                Accent color, highlights, dividers.
               </li>
             </ul>
           </div>
