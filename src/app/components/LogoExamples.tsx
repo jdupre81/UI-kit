@@ -52,7 +52,7 @@ export function LogoExamples() {
         
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          {/* Logo on White Background */}
+          {/* Logo short on White Background */}
           <div className="space-y-2">
             <div className="bg-white dark:bg-[#ffffff] rounded-none border border-[#E5E5E5] dark:border-[#404040] p-8 flex flex-col items-center gap-3">
               <img
@@ -114,7 +114,7 @@ export function LogoExamples() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          {/* Logo on White Background */}
+          {/* Logo compact version on White Background */}
           <div className="space-y-2">
             <div className="bg-white dark:bg-[#ffffff] rounded-none border border-[#E5E5E5] dark:border-[#404040] p-8 flex flex-col items-center gap-3">
               <img
@@ -135,7 +135,7 @@ export function LogoExamples() {
             </a>
           </div>
 
-          {/* Logo short version on dark */}
+          {/* Logo compact version on dark */}
           <div className="space-y-2">
             <div className="bg-[#000000] rounded-none border border-[#E5E5E5] dark:border-[#404040] p-8 flex flex-col items-center gap-3">
               <img
@@ -167,7 +167,7 @@ export function LogoExamples() {
               The long version is the most complete expression of the logo and should be used in contexts where full brand presentation is important and space is not restricted. It is best suited for formal applications such as cover pages, presentations, editorial layouts, or institutional documents where the full name reinforces clarity and brand presence.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              {/* Logo on White Background */}
+              {/* Logo long version on White Background */}
               <div className="space-y-2">
                 <div className="bg-white dark:bg-[#ffffff] rounded-none border border-[#E5E5E5] dark:border-[#404040] p-8 flex flex-col items-center gap-3">
                   <img
@@ -188,7 +188,7 @@ export function LogoExamples() {
                 </a>
               </div>
 
-              {/* Logo on Dark Background */}
+              {/* Logo long version on Dark Background */}
               <div className="space-y-2">
                 <div className="bg-[#000000] rounded-none border border-[#E5E5E5] dark:border-[#404040] p-8 flex flex-col items-center gap-3">
                   <img
@@ -216,7 +216,7 @@ export function LogoExamples() {
             <p className="text-sm font-semibold text-[#000000] dark:text-white">
               Clear Space & Sizing
             </p>
-            <div className="bg-white dark:bg-[#2d2d2d] rounded-none border border-[#E5E5E5] dark:border-[#404040] p-8">
+            <div className="bg-white dark:bg-[#ffffff] rounded-none border border-[#E5E5E5] dark:border-[#404040] p-8">
               <div className="relative inline-block">
                 <div className="p-4 border-2 border-dashed border-[#5461a6] dark:border-[#93c5fd]">
                   <img
@@ -239,7 +239,7 @@ export function LogoExamples() {
                 </div>
               </div>
               <p
-                className="text-xs text-[#848484] dark:text-gray-300 mt-4"
+                className="text-xs text-[#848484] dark:text-gray-600 mt-4"
                 style={{ fontFamily: "Switzer, sans-serif" }}
               >
                 Maintain clear space of X (height of logo)
