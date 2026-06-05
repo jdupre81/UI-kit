@@ -199,6 +199,57 @@ button {
 }
 
 @layer components {
+
+  .btn {
+    @apply inline-flex items-center justify-center gap-2;
+    @apply rounded-md transition-colors duration-200;
+    @apply font-medium whitespace-nowrap;
+
+    background: var(--primary);
+    color: var(--primary-foreground);
+    border: 1px solid var(--border);
+
+    cursor: pointer;
+  }
+
+  /* Tamaños */
+
+  .btn-xs {
+    min-height: 28px;
+    padding-inline: 0.625rem;
+    font-size: 0.75rem;
+    line-height: 1;
+  }
+
+  .btn-sm {
+    min-height: 32px;
+    padding-inline: 0.75rem;
+    font-size: 0.875rem;
+    line-height: 1;
+  }
+
+  .btn-md {
+    min-height: 36px;
+    padding-inline: 1rem;
+    font-size: 0.875rem;
+    line-height: 1;
+  }
+
+  .btn-lg {
+    min-height: 40px;
+    padding-inline: 1.25rem;
+    font-size: 1rem;
+    line-height: 1;
+  }
+
+  .btn-xl {
+    min-height: 44px;
+    padding-inline: 1.5rem;
+    font-size: 1rem;
+    line-height: 1;
+  }
+}
+
   .btn-primary {
     background: var(--primary);
     color: var(--primary-foreground);
@@ -224,4 +275,3 @@ button {
     color: var(--foreground);
     border: 1px solid var(--border);
   }
-}
