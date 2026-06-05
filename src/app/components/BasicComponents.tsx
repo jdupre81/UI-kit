@@ -33,7 +33,7 @@ export function FormInputs() {
                   type="text"
                   placeholder="Disabled input"
                   disabled
-                  className="dark:text-[#ffffff] w-full px-4 py-2 border border-[#E5E5E5] dark:border-[#404040] bg-[#F7F7F8] dark:bg-[#2d2d2d] text-[#848484] dark:text-gray-500 cursor-not-allowed"
+                  className="dark:text-gray-100 w-full px-4 py-2 border border-[#E5E5E5] dark:border-[#404040] bg-[#F7F7F8] dark:bg-[#2d2d2d] text-[#848484] dark:text-gray-500 cursor-not-allowed"
                   style={{ fontFamily: "Switzer, sans-serif", borderRadius: "4px" }}
                 />
               </div>
