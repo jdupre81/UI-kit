@@ -45,7 +45,7 @@ export function ButtonComponents() {
         >
           <button
             style={{ fontFamily: "Switzer, sans-serif" }}
-            className="uppercase px-6 py-3 bg-[#5461a6] text-white rounded-none hover:bg-[#26245c] active:bg-[#4B4B7F] transition-all shadow-sm hover:shadow-md focus:outline-2 focus:outline-offset-2 focus:outline-[#5461a6]"
+            className="btn-md uppercase bg-[#5461a6] text-white rounded-none hover:bg-[#26245c] active:bg-[#4B4B7F] transition-all shadow-sm hover:shadow-md focus:outline-2 focus:outline-offset-2 focus:outline-[#5461a6]"
           >
             Normal (hover me)
           </button>
@@ -150,6 +150,7 @@ export function ButtonComponents() {
           </button>
         </ButtonExample>
       </div>
+
         {/* Size Variants */}
       <ButtonExample
         label="Size Variants"
