@@ -175,7 +175,7 @@ export function LogoExamples() {
                     alt="SDSC Logo - Color"
                     className="h-10"
                   />
-                  <p className="text-xs text-[#848484] dark:text-gray-300">
+                  <p className="text-xs text-[#848484] dark:text-gray-600">
                     Logo (long version) on white background
                   </p>
                 </div>
