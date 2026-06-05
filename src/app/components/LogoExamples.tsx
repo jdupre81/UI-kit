@@ -122,7 +122,7 @@ export function LogoExamples() {
                 alt="SDSC Logo Compact - Color"
                 className="h-16"
               />
-              <p className="text-xs text-[#848484] dark:text-gray-600">
+              <p className="text-xs text-[#848484] dark:bg-[#ffffff] dark:text-gray-600">
                 Logo (compact version) on white background
               </p>
             </div>
