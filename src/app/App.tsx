@@ -352,7 +352,7 @@ export default function App() {
                   <ul className="space-y-2 text-sm">
                     <li>
                       <a
-                        href="#page-layouts"
+                        href="#hero-section"
                         className="text-[#5461a6] dark:text-[#93c5fd] hover:text-[#26245c] dark:hover:text-white transition-colors block py-1"
                       >
                         Hero Section
@@ -360,7 +360,7 @@ export default function App() {
                     </li>
                     <li>
                       <a
-                        href="#page-layouts"
+                        href="#feature-grids"
                         className="text-[#5461a6] dark:text-[#93c5fd] hover:text-[#26245c] dark:hover:text-white transition-colors block py-1"
                       >
                         Feature Grids
@@ -368,7 +368,7 @@ export default function App() {
                     </li>
                     <li>
                       <a
-                        href="#page-layouts"
+                        href="#key-numbers"
                         className="text-[#5461a6] dark:text-[#93c5fd] hover:text-[#26245c] dark:hover:text-white transition-colors block py-1"
                       >
                         Key Numbers
@@ -376,7 +376,7 @@ export default function App() {
                     </li>
                     <li>
                       <a
-                        href="#page-layouts"
+                        href="#full-width-banner"
                         className="text-[#5461a6] dark:text-[#93c5fd] hover:text-[#26245c] dark:hover:text-white transition-colors block py-1"
                       >
                         Full-Width Banner
@@ -384,7 +384,7 @@ export default function App() {
                     </li>
                     <li>
                       <a
-                        href="#page-layouts"
+                        href="#list-layout"
                         className="text-[#5461a6] dark:text-[#93c5fd] hover:text-[#26245c] dark:hover:text-white transition-colors block py-1"
                       >
                         List Layout
@@ -392,7 +392,7 @@ export default function App() {
                     </li>
                     <li>
                       <a
-                        href="#page-layouts"
+                        href="#content-sidebar"
                         className="text-[#5461a6] dark:text-[#93c5fd] hover:text-[#26245c] dark:hover:text-white transition-colors block py-1"
                       >
                         Content + Sidebar
@@ -400,7 +400,7 @@ export default function App() {
                     </li>
                     <li>
                       <a
-                        href="#page-layouts"
+                        href="#event-index"
                         className="text-[#5461a6] dark:text-[#93c5fd] hover:text-[#26245c] dark:hover:text-white transition-colors block py-1"
                       >
                         Event Index
@@ -408,7 +408,7 @@ export default function App() {
                     </li>
                     <li>
                       <a
-                        href="#page-layouts"
+                        href="#article-grid"
                         className="text-[#5461a6] dark:text-[#93c5fd] hover:text-[#26245c] dark:hover:text-white transition-colors block py-1"
                       >
                         Article Grid
