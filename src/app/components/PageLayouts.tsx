@@ -17,6 +17,23 @@ import {
 } from "lucide-react";
 import bgPattern3 from "/src/imports/global_background3.png";
 
+export function PageLayouts() {
+  return (
+    <section className="space-y-12">
+      <HeroSection />
+      <FeatureGrid3Column />
+      <FeatureGrid4Column />
+      <FeatureGrid2Column />
+      <KeyNumbers />
+      <FullWidthBanner />
+      <ListLayout />
+      <ContentSidebar />
+      <EventIndex />
+      <ArticleGrid />
+    </section>
+  );
+}
+
 export function HeroSection() {
   return (
     <div className="space-y-4">
