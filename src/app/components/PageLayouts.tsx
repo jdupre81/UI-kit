@@ -483,7 +483,7 @@ export function PageLayouts() {
       {/* Event Index */}
 export function EventIndex() {
   return (
-    <section className="space-y-6"></section>      
+    <section className="space-y-6">   
       <div>
         <h3 className="text-lg font-bold text-[#000000] dark:text-white">
           EVENT INDEX
