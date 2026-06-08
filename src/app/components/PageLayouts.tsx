@@ -481,7 +481,10 @@ export function PageLayouts() {
       </div>
 
       {/* Event Index */}
-      <div className="space-y-4">
+export function EventIndex() {
+  return (
+    <section className="space-y-6"></section>      
+      <div>
         <h3 className="text-lg font-bold text-[#000000] dark:text-white">
           EVENT INDEX
         </h3>
@@ -602,6 +605,9 @@ export function PageLayouts() {
           </div>
         </div>
       </div>
+    </section>
+  );
+}
 
       {/* Article Grid */}
       <div className="space-y-4">
