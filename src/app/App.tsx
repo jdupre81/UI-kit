@@ -609,7 +609,7 @@ export default function App() {
                 </div>
 
                 {/* Hero Section: Image + Content */}
-                <div id="PageLayouts">
+                <div id="hero-section">
                   <PageLayouts />
                 </div>
 
