@@ -612,6 +612,12 @@ export default function App() {
                 <div id="page-layouts">
                   <PageLayouts />
                 </div>
+
+                {/* Event Index */}
+                <div id="EventIndex">
+                  <PageLayouts />
+                </div>
+
               </section>
             </div>
           </main>
