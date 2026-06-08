@@ -629,7 +629,7 @@ export default function App() {
 
                 {/* Toggles */}
                 <div id="event-index">
-                  <EventIndex />
+                  <Toggles />
                 </div>
 
                 {/* Progress Indicators */}
