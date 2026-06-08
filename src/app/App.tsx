@@ -613,7 +613,7 @@ export default function App() {
                 </div>
 
                 {/* Buttons */}
-                <div id="buttons">
+                <div id="hero-section">
                   <ButtonComponents />
                 </div>
 
@@ -628,7 +628,7 @@ export default function App() {
                 </div>
 
                 {/* Toggles */}
-                <div id="toggles">
+                <div id="event-index">
                   <Toggles />
                 </div>
 
