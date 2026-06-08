@@ -608,32 +608,6 @@ export default function App() {
                   </p>
                 </div>
 
-                {/* Buttons */}
-                <div id="hero-section">
-                  <ButtonComponents />
-                </div>
-
-                {/* Form Inputs */}
-                <div id="form-inputs">
-                  <FormInputs />
-                </div>
-
-                {/* Checkboxes */}
-                <div id="checkboxes">
-                  <Checkboxes />
-                </div>
-
-                {/* Toggles */}
-                <div id="event-index">
-                  <Toggles />
-                </div>
-
-                {/* Progress Indicators */}
-                <div id="progress">
-                  <ProgressIndicators />
-                </div>
-
-
                 {/* 7 & 8: Hero and Feature Grid */}
                 <div id="page-layouts">
                   <PageLayouts />
