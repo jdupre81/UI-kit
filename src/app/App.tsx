@@ -15,10 +15,6 @@ import {
 import { PageLayouts } from "./components/PageLayouts";
 import logoColor from "/src/imports/SDSC_logo_horizontal_rgb_colors.png";
 import logoWhite from "/src/imports/SDSC_logo_horizontal_rgb_white.png";
-import ethLogo from "/src/imports/eth_logo_kurz_pos.png";
-import epflLogo from "/src/imports/EPFL_Logo_Digital_RGB_PROD.png";
-import psiLogo from "/src/imports/PSI_Logo_01_Standard_Positive_RGB.png";
-import biopoleLogo from "/src/imports/Biopo_le_Lausanne_idca14LYxL_1.png";
 import bgPattern from "/src/imports/global_background2.png";
 
 export default function App() {
