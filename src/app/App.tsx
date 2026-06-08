@@ -12,6 +12,7 @@ import {
   Toggles,
   ProgressIndicators,
 } from "./components/BasicComponents";
+import { PageLayouts } from "./components/PageLayouts";
 import { KeyNumbers } from "./KeyNumbers";
 import logoColor from "/src/imports/SDSC_logo_horizontal_rgb_colors.png";
 import logoWhite from "/src/imports/SDSC_logo_horizontal_rgb_white.png";
