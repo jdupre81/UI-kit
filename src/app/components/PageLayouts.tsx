@@ -17,7 +17,7 @@ import {
 } from "lucide-react";
 import bgPattern3 from "/src/imports/global_background3.png";
 
-export function PageLayouts() {
+export function hero-section() {
   return (
     <section className="space-y-12">
       {/* Hero Section: Image + Content */}
