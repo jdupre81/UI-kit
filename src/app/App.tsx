@@ -612,6 +612,32 @@ export default function App() {
                   </p>
                 </div>
 
+                {/* Buttons */}
+                <div id="buttons">
+                  <ButtonComponents />
+                </div>
+
+                {/* Form Inputs */}
+                <div id="form-inputs">
+                  <FormInputs />
+                </div>
+
+                {/* Checkboxes */}
+                <div id="checkboxes">
+                  <Checkboxes />
+                </div>
+
+                {/* Toggles */}
+                <div id="toggles">
+                  <Toggles />
+                </div>
+
+                {/* Progress Indicators */}
+                <div id="progress">
+                  <ProgressIndicators />
+                </div>
+
+
                 {/* 7 & 8: Hero and Feature Grid */}
                 <div id="page-layouts">
                   <PageLayouts />
