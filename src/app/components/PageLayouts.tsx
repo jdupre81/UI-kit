@@ -17,11 +17,9 @@ import {
 } from "lucide-react";
 import bgPattern3 from "/src/imports/global_background3.png";
 
-export function PageLayouts() {
+export function HeroSection() {
   return (
-    <section className="space-y-12">
-      {/* Hero Section: Image + Content */}
-      <div className="space-y-4">
+    <div className="space-y-4">
         <h3 className="text-lg font-bold text-[#000000] dark:text-white">
           HERO SECTION: IMAGE + CONTENT
         </h3>
@@ -70,6 +68,9 @@ export function PageLayouts() {
           </div>
         </div>
       </div>
+  );
+}
+
 
       {/* Feature Grid: 3-Column */}
       <div className="space-y-4">
