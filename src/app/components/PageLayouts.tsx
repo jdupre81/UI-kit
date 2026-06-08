@@ -20,23 +20,8 @@ import bgPattern3 from "/src/imports/global_background3.png";
 export function PageLayouts() {
   return (
     <section className="space-y-12">
-      <HeroSection />
-      <FeatureGrid3Column />
-      <FeatureGrid4Column />
-      <FeatureGrid2Column />
-      <KeyNumbers />
-      <FullWidthBanner />
-      <ListLayout />
-      <ContentSidebar />
-      <EventIndex />
-      <ArticleGrid />
-    </section>
-  );
-}
-
-export function HeroSection() {
-  return (
-    <div className="space-y-4">
+      {/* Hero Section: Image + Content */}
+      <div className="space-y-4">
         <h3 className="text-lg font-bold text-[#000000] dark:text-white">
           HERO SECTION: IMAGE + CONTENT
         </h3>
@@ -85,9 +70,6 @@ export function HeroSection() {
           </div>
         </div>
       </div>
-  );
-}
-
 
       {/* Feature Grid: 3-Column */}
       <div className="space-y-4">
