@@ -6,9 +6,4 @@
   # SDSC UI kit basic
   Check our the guidelines https://jdupre81.github.io/UI-kit/
 
-  ## Running the code
-
-  Run `npm i` to install the dependencies.
-
-  Run `npm run dev` to start the development server.
   
