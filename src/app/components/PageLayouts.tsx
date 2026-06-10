@@ -414,7 +414,7 @@ export function PageLayouts() {
   );
 }
 
-export function contentSidebar() {
+export function Sidebar() {
   return (
     <section className="space-y-12">
 

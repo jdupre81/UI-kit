@@ -17,7 +17,7 @@ import {
   PageLayouts, 
   ArticleGrid,
   EventIndex, 
-  ContentSidebar,
+  Sidebar,
 } from "./components/PageLayouts";
 
 //import logoColor from "/src/imports/SDSC_logo_horizontal_rgb_colors.png";
@@ -622,7 +622,7 @@ export default function App() {
 
                 {/* Content Sidebar */}
                 <div id="content-sidebar">
-                  <ContentSidebar />
+                  <Sidebar />
                 </div>
 
                   {/* Event Index */}
