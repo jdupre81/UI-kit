@@ -224,9 +224,70 @@ export function PageLayouts() {
   );
 }
 
+export function KeyNumbers() {
+  return (
+    <section className="space-y-6">
+      <div>
+        <h3 className="text-lg font-bold text-[#000000] dark:text-white">
+          KEY NUMBERS
+        </h3>
+        <p className="text-sm text-[#848484] dark:text-gray-300">
+          Highlight important statistics, metrics, or achievements with large numbers
+        </p>
+      </div>
+
+      <div className="bg-[#26245c] rounded-none p-8 md:p-12">
+        <div className="text-center mb-8">
+          <h2 className="text-3xl font-bold text-white mb-3">
+            Lorem Ipsum Dolor
+          </h2>
+        </div>
+
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+          <div className="text-center">
+            <div className="text-5xl font-bold text-white mb-2">
+              150+
+            </div>
+            <p className="text-base text-white opacity-90">
+              Lorem Ipsum
+            </p>
+          </div>
+
+          <div className="text-center">
+            <div className="text-5xl font-bold text-white mb-2">
+              30+
+            </div>
+            <p className="text-base text-white opacity-90">
+              Dolor Sit
+            </p>
+          </div>
+
+          <div className="text-center">
+            <div className="text-5xl font-bold text-white mb-2">
+              500+
+            </div>
+            <p className="text-base text-white opacity-90">
+              Amet Consectetur
+            </p>
+          </div>
+
+          <div className="text-center">
+            <div className="text-5xl font-bold text-white mb-2">
+              12
+            </div>
+            <p className="text-base text-white opacity-90">
+              Adipiscing Elit
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
 export function MoreLayouts() {
   return (
-    <>
+    <section className="space-y-12">
 
          {/* Full-Width Banner */}
       <div className="space-y-4">
@@ -676,69 +737,6 @@ export function MoreLayouts() {
                 </a>
               </div>
             </div>
-
-export function KeyNumbers() {
-  return (
-    <section className="space-y-6">
-      <div>
-        <h3 className="text-lg font-bold text-[#000000] dark:text-white">
-          KEY NUMBERS
-        </h3>
-        <p className="text-sm text-[#848484] dark:text-gray-300">
-          Highlight important statistics, metrics, or achievements with large numbers
-        </p>
-      </div>
-
-      <div className="bg-[#26245c] rounded-none p-8 md:p-12">
-        <div className="text-center mb-8">
-          <h2 className="text-3xl font-bold text-white mb-3">
-            Lorem Ipsum Dolor
-          </h2>
-        </div>
-
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-          <div className="text-center">
-            <div className="text-5xl font-bold text-white mb-2">
-              150+
-            </div>
-            <p className="text-base text-white opacity-90">
-              Lorem Ipsum
-            </p>
-          </div>
-
-          <div className="text-center">
-            <div className="text-5xl font-bold text-white mb-2">
-              30+
-            </div>
-            <p className="text-base text-white opacity-90">
-              Dolor Sit
-            </p>
-          </div>
-
-          <div className="text-center">
-            <div className="text-5xl font-bold text-white mb-2">
-              500+
-            </div>
-            <p className="text-base text-white opacity-90">
-              Amet Consectetur
-            </p>
-          </div>
-
-          <div className="text-center">
-            <div className="text-5xl font-bold text-white mb-2">
-              12
-            </div>
-            <p className="text-base text-white opacity-90">
-              Adipiscing Elit
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-  );
-}
-
-
           </div>
         </div>
       </div>
