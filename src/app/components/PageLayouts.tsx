@@ -35,7 +35,7 @@ export function PageLayouts() {
             <div
               className="h-96 bg-gradient-to-br from-[#26245c] to-[#5461a6] flex items-center justify-center"
               style={{
-                backgroundImage: `url(${bgPattern3})`,
+                //backgroundImage: `url(${bgPattern3})`,
                 backgroundSize: "cover",
                 backgroundPosition: "left center",
                 backgroundBlendMode: "overlay",
