@@ -336,6 +336,9 @@ export function FullWidthBanner() {
           </div>
         </div>
       </div>
+     </section>
+  );
+}     
 
 export function MoreLayouts() {
   return (
