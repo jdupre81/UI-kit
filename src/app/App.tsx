@@ -615,41 +615,6 @@ export default function App() {
                   <PageLayouts />
                 </div>
 
-                {/* FEATURE GRID: 3-COLUMN */}
-                <div id="feature-grids">
-                  <PageLayouts />
-                </div>
-
-                 {/* KEY NUMBERS */}
-                <div id="key-numbers">
-                  <PageLayouts />
-                </div>
-
-                {/* FULL WIDTH BANNER */}
-                <div id="full-width-banner">
-                  <PageLayouts />
-                </div>
-
-                {/* LIST LAYOUT */}
-                <div id="list-layout">
-                  <PageLayouts />
-                </div>
-
-                {/* CONTENT + SIDEBAR */}
-                <div id="content-sidebar">
-                  <PageLayouts />
-                </div>
-
-                {/* EVENT INDEX */}
-                <div id="event-index">
-                  <PageLayouts />
-                </div>
-
-                {/* ARTICLE GRID */}
-                <div id="article-grid">
-                  <PageLayouts />
-                </div>
-
               </section>
             </div>
           </main>
