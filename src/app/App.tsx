@@ -20,6 +20,7 @@ import {
   EventIndex, 
   Sidebar,
   KeyNumbers,
+  FullWidthBanner,
 } from "./components/PageLayouts";
 
 //import logoColor from "/src/imports/SDSC_logo_horizontal_rgb_colors.png";
@@ -625,6 +626,11 @@ export default function App() {
                 {/* Key Numbers */}
                 <div id="key-numbers">
                   <KeyNumbers />
+                </div>
+
+                {/* Full-Width Banner */}
+                <div id="full-width-banner">
+                  <FullWidthBanner />
                 </div>
 
                 {/* List Layout */}
