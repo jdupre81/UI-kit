@@ -602,6 +602,136 @@ export function PageLayouts() {
           </div>
         </div>
       </div>
+
+    </section>
+  );
+}
+
+export function EventIndex() {
+  return (
+    <section className="space-y-12">
+      {/* Event Index */}
+      <div className="space-y-4">
+        <h3 className="text-lg font-bold text-[#000000] dark:text-white">
+          EVENT INDEX
+        </h3>
+        <p className="text-sm text-[#848484] dark:text-gray-300">
+          Chronological event listing with dates, images,
+          titles, and metadata
+        </p>
+
+        <div className="bg-white dark:bg-[#2d2d2d] rounded-none border border-[#E5E5E5] dark:border-[#404040] p-8">
+          <div className="space-y-6">
+            {/* Event 1 */}
+            <div className="flex flex-col md:flex-row gap-6 pb-6 border-b border-[#E5E5E5] dark:border-[#404040]">
+              <div className="flex-shrink-0 w-32">
+                <div className="bg-[#5461a6] text-white rounded-none p-4 text-center">
+                  <div className="text-3xl font-bold">15</div>
+                  <div className="text-sm">JUN 2026</div>
+                </div>
+              </div>
+              <div className="flex-1">
+                <h3 className="text-xl font-bold text-[#000000] dark:text-white mb-3">
+                  Lorem Ipsum Dolor Sit Amet Workshop
+                </h3>
+                <div className="flex flex-wrap gap-4 mb-3 text-sm text-[#848484] dark:text-gray-300">
+                  <div className="flex items-center gap-1">
+                    <MapPin className="w-4 h-4" />
+                    <span>Zürich, Switzerland</span>
+                  </div>
+                  <div className="flex items-center gap-1">
+                    <User className="w-4 h-4" />
+                    <span>Dr. Lorem Ipsum</span>
+                  </div>
+                </div>
+                <p className="text-base text-[#000000] dark:text-white mb-4">
+                  Lorem ipsum dolor sit amet, consectetur
+                  adipiscing elit, sed do eiusmod tempor
+                  incididunt ut labore et dolore magna aliqua.
+                </p>
+                <button
+                  style={{ fontFamily: "Switzer, sans-serif" }}
+                  className="uppercase px-4 py-2 bg-[#5461a6] text-white rounded-none hover:bg-[#26245c] transition-colors text-sm"
+                >
+                  Register
+                </button>
+              </div>
+            </div>
+
+            {/* Event 2 */}
+            <div className="flex flex-col md:flex-row gap-6 pb-6 border-b border-[#E5E5E5] dark:border-[#404040]">
+              <div className="flex-shrink-0 w-32">
+                <div className="bg-[#26245c] text-white rounded-none p-4 text-center">
+                  <div className="text-3xl font-bold">22</div>
+                  <div className="text-sm">JUN 2026</div>
+                </div>
+              </div>
+              <div className="flex-1">
+                <h3 className="text-xl font-bold text-[#000000] dark:text-white mb-3">
+                  Consectetur Adipiscing Elit Conference
+                </h3>
+                <div className="flex flex-wrap gap-4 mb-3 text-sm text-[#848484] dark:text-gray-300">
+                  <div className="flex items-center gap-1">
+                    <MapPin className="w-4 h-4" />
+                    <span>Lausanne, Switzerland</span>
+                  </div>
+                  <div className="flex items-center gap-1">
+                    <User className="w-4 h-4" />
+                    <span>Prof. Dolor Sit</span>
+                  </div>
+                </div>
+                <p className="text-base text-[#000000] dark:text-white mb-4">
+                  Sed do eiusmod tempor incididunt ut labore et
+                  dolore magna aliqua. Ut enim ad minim veniam,
+                  quis nostrud exercitation.
+                </p>
+                <button
+                  style={{ fontFamily: "Switzer, sans-serif" }}
+                  className="uppercase px-4 py-2 bg-[#5461a6] text-white rounded-none hover:bg-[#26245c] transition-colors text-sm"
+                >
+                  Learn More
+                </button>
+              </div>
+            </div>
+
+            {/* Event 3 */}
+            <div className="flex flex-col md:flex-row gap-6">
+              <div className="flex-shrink-0 w-32">
+                <div className="bg-[#5461a6] text-white rounded-none p-4 text-center">
+                  <div className="text-3xl font-bold">05</div>
+                  <div className="text-sm">JUL 2026</div>
+                </div>
+              </div>
+              <div className="flex-1">
+                <h3 className="text-xl font-bold text-[#000000] dark:text-white mb-3">
+                  Sed Do Eiusmod Tempor Symposium
+                </h3>
+                <div className="flex flex-wrap gap-4 mb-3 text-sm text-[#848484] dark:text-gray-300">
+                  <div className="flex items-center gap-1">
+                    <MapPin className="w-4 h-4" />
+                    <span>Basel, Switzerland</span>
+                  </div>
+                  <div className="flex items-center gap-1">
+                    <User className="w-4 h-4" />
+                    <span>Dr. Amet Consectetur</span>
+                  </div>
+                </div>
+                <p className="text-base text-[#000000] dark:text-white mb-4">
+                  Duis aute irure dolor in reprehenderit in
+                  voluptate velit esse cillum dolore eu fugiat
+                  nulla pariatur.
+                </p>
+                <button
+                  style={{ fontFamily: "Switzer, sans-serif" }}
+                  className="uppercase px-4 py-2 bg-[#5461a6] text-white rounded-none hover:bg-[#26245c] transition-colors text-sm"
+                >
+                  View Details
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       
     </section>
   );

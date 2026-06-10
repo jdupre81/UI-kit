@@ -15,7 +15,8 @@ import {
 
 import { 
   PageLayouts, 
-  ArticleGrid, 
+  ArticleGrid,
+  EventIndex, 
 } from "./components/PageLayouts";
 
 //import logoColor from "/src/imports/SDSC_logo_horizontal_rgb_colors.png";
@@ -616,6 +617,11 @@ export default function App() {
                 {/* Hero Section: Image + Content */}
                 <div id="hero-section">
                   <PageLayouts />
+                </div>
+
+                  {/* Event Index */}
+                <div id="event-index">
+                  <EventIndex />
                 </div>
 
                   {/* Article Grid */}
