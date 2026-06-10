@@ -222,6 +222,10 @@ export function PageLayouts() {
         </div>
       </div>
 
+    </section>
+  );
+}
+
 export function KeyNumbers() {
   return (
     <section className="space-y-6">
