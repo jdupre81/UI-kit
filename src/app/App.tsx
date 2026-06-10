@@ -624,7 +624,7 @@ export default function App() {
 
                  {/* KEY NUMBERS */}
                 <div id="key-numbers">
-                  <KeyNumbers />
+                  <PageLayouts />
                 </div>
 
                 {/* FULL WIDTH BANNER */}
