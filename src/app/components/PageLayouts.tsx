@@ -11,11 +11,10 @@ import {
   Cpu,
   Circle,
   Check,
-  Calendar,
   MapPin,
   User,
 } from "lucide-react";
-import bgPattern3 from "/src/imports/global_background3.png";
+import bgPattern3 from "../../imports/global_background_3.png";
 
 export function PageLayouts() {
   return (
@@ -167,7 +166,7 @@ export function PageLayouts() {
             </div>
             <div className="text-center space-y-3">
               <div className="w-12 h-12 bg-[#5461a6] bg-opacity-10 rounded-none flex items-center justify-center mx-auto">
-                <Rocket className="w-6 h-6 text-[#ffffff] dark:text-[ffffff]" />
+                <Rocket className="w-6 h-6 text-[#ffffff] dark:text-[#ffffff]" />
               </div>
               <h4 className="text-base font-bold text-[#000000] dark:text-white">
                 Eiusmod
@@ -228,69 +227,9 @@ export function PageLayouts() {
 
 export function MoreLayouts() {
   return (
-    
+    <>
 
-export function KeyNumbers() {
-  return (
-    <section className="space-y-6">
-      <div>
-        <h3 className="text-lg font-bold text-[#000000] dark:text-white">
-          KEY NUMBERS
-        </h3>
-        <p className="text-sm text-[#848484] dark:text-gray-300">
-          Highlight important statistics, metrics, or achievements with large numbers
-        </p>
-      </div>
-
-      <div className="bg-[#26245c] rounded-none p-8 md:p-12">
-        <div className="text-center mb-8">
-          <h2 className="text-3xl font-bold text-white mb-3">
-            Lorem Ipsum Dolor
-          </h2>
-        </div>
-
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-          <div className="text-center">
-            <div className="text-5xl font-bold text-white mb-2">
-              150+
-            </div>
-            <p className="text-base text-white opacity-90">
-              Lorem Ipsum
-            </p>
-          </div>
-
-          <div className="text-center">
-            <div className="text-5xl font-bold text-white mb-2">
-              30+
-            </div>
-            <p className="text-base text-white opacity-90">
-              Dolor Sit
-            </p>
-          </div>
-
-          <div className="text-center">
-            <div className="text-5xl font-bold text-white mb-2">
-              500+
-            </div>
-            <p className="text-base text-white opacity-90">
-              Amet Consectetur
-            </p>
-          </div>
-
-          <div className="text-center">
-            <div className="text-5xl font-bold text-white mb-2">
-              12
-            </div>
-            <p className="text-base text-white opacity-90">
-              Adipiscing Elit
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-  );
-}
-      {/* Full-Width Banner */}
+         {/* Full-Width Banner */}
       <div className="space-y-4">
         <h3 className="text-lg font-bold text-[#000000] dark:text-white">
           FULL-WIDTH BANNER
@@ -329,7 +268,7 @@ export function KeyNumbers() {
             </p>
             <button
               style={{ fontFamily: "Switzer, sans-serif" }}
-              className="uppercase px-8 py-3 bg-white dark:bg-[ffffff] text-[#26245c] rounded-none hover:bg-opacity-90 transition-colors"
+              className="uppercase px-8 py-3 bg-white dark:bg-[#ffffff] text-[#26245c] rounded-none hover:bg-opacity-90 transition-colors"
             >
               Get Started
             </button>
@@ -450,19 +389,19 @@ export function KeyNumbers() {
                 </a>
                 <a
                   href="#"
-                  className="block text-sm text-[#000000] dark:text-white hover:text-[#5461a6] dark:text-[#93c5fd] transition-colors"
+                  className="block text-sm text-[#000000] hover:text-[#5461a6] dark:text-[#93c5fd] transition-colors"
                 >
                   Amet consectetur
                 </a>
                 <a
                   href="#"
-                  className="block text-sm text-[#000000] dark:text-white hover:text-[#5461a6] dark:text-[#93c5fd] transition-colors"
+                  className="block text-sm text-[#000000] hover:text-[#5461a6] dark:text-[#93c5fd] transition-colors"
                 >
                   Adipiscing elit
                 </a>
                 <a
                   href="#"
-                  className="block text-sm text-[#000000] dark:text-white hover:text-[#5461a6] dark:text-[#93c5fd] transition-colors"
+                  className="block text-sm text-[#000000] hover:text-[#5461a6] dark:text-[#93c5fd] transition-colors"
                 >
                   Sed do eiusmod
                 </a>
@@ -738,6 +677,69 @@ export function KeyNumbers() {
                 </a>
               </div>
             </div>
+
+export function KeyNumbers() {
+  return (
+    <section className="space-y-6">
+      <div>
+        <h3 className="text-lg font-bold text-[#000000] dark:text-white">
+          KEY NUMBERS
+        </h3>
+        <p className="text-sm text-[#848484] dark:text-gray-300">
+          Highlight important statistics, metrics, or achievements with large numbers
+        </p>
+      </div>
+
+      <div className="bg-[#26245c] rounded-none p-8 md:p-12">
+        <div className="text-center mb-8">
+          <h2 className="text-3xl font-bold text-white mb-3">
+            Lorem Ipsum Dolor
+          </h2>
+        </div>
+
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+          <div className="text-center">
+            <div className="text-5xl font-bold text-white mb-2">
+              150+
+            </div>
+            <p className="text-base text-white opacity-90">
+              Lorem Ipsum
+            </p>
+          </div>
+
+          <div className="text-center">
+            <div className="text-5xl font-bold text-white mb-2">
+              30+
+            </div>
+            <p className="text-base text-white opacity-90">
+              Dolor Sit
+            </p>
+          </div>
+
+          <div className="text-center">
+            <div className="text-5xl font-bold text-white mb-2">
+              500+
+            </div>
+            <p className="text-base text-white opacity-90">
+              Amet Consectetur
+            </p>
+          </div>
+
+          <div className="text-center">
+            <div className="text-5xl font-bold text-white mb-2">
+              12
+            </div>
+            <p className="text-base text-white opacity-90">
+              Adipiscing Elit
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+
           </div>
         </div>
       </div>
