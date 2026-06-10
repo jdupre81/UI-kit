@@ -15,7 +15,7 @@ import {
   User,
 } from "lucide-react";
 
-import bgPattern3 from "src/imports/bg-pattern-3.png";
+//import bgPattern3 from "src/imports/bg-pattern-3.png";
 
 export function PageLayouts() {
   return (
@@ -35,7 +35,6 @@ export function PageLayouts() {
             <div
               className="h-96 bg-gradient-to-br from-[#26245c] to-[#5461a6] flex items-center justify-center"
               style={{
-                backgroundImage: `url(${bgPattern3})`,
                 backgroundSize: "cover",
                 backgroundPosition: "left center",
                 backgroundBlendMode: "overlay",
