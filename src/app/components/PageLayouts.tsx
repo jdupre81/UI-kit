@@ -15,7 +15,7 @@ import {
   User,
 } from "lucide-react";
 
-import bgPattern3 from "src/imports/bg-pattern-3.png";
+//import bgPattern3 from "src/imports/bg-pattern-3.png";
 
 export function PageLayouts() {
   return (
@@ -284,61 +284,7 @@ export function KeyNumbers() {
       </div>
     </section>
   );
-}
-
-export function FullWidthBanner() {
-  return (
-    <section className="space-y-12">
-
-      {/* Full-Width Banner */}
-      <div className="space-y-4">
-        <h3 className="text-lg font-bold text-[#000000] dark:text-white">
-          FULL-WIDTH BANNER
-        </h3>
-        <p className="text-sm text-[#848484] dark:text-gray-300">
-          Full-width banners without rounded corners for
-          announcements or calls-to-action
-        </p>
-
-        <div className="bg-[#dddeec] px-8 py-12">
-          <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-3xl font-bold text-[#000000] mb-4">
-              Lorem Ipsum Dolor Sit Amet
-            </h2>
-            <p className="text-base text-[#000000] mb-6">
-              Consectetur adipiscing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna aliqua
-            </p>
-            <button
-              style={{ fontFamily: "Switzer, sans-serif" }}
-              className="uppercase px-8 py-3 bg-[#5461a6] text-white rounded-none hover:bg-[#26245c] transition-colors"
-            >
-              Lorem Ipsum
-            </button>
-          </div>
-        </div>
-
-        <div className="bg-[#26245c] px-8 py-12">
-          <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-3xl font-bold text-white mb-4">
-              Dolor Sit Amet Consectetur?
-            </h2>
-            <p className="text-base text-white opacity-90 mb-6">
-              Sed do eiusmod tempor incididunt ut labore et
-              dolore magna aliqua
-            </p>
-            <button
-              style={{ fontFamily: "Switzer, sans-serif" }}
-              className="uppercase px-8 py-3 bg-white dark:bg-[#ffffff] text-[#26245c] rounded-none hover:bg-opacity-90 transition-colors"
-            >
-              Get Started
-            </button>
-          </div>
-        </div>
-      </div>
-     </section>
-  );
-}     
+}   
 
 export function MoreLayouts() {
   return (
