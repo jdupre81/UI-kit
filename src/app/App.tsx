@@ -15,12 +15,12 @@ import {
 
 import { 
   PageLayouts, 
-  ArticleGrid,
-  ListLayout,
-  EventIndex, 
-  Sidebar,
   KeyNumbers,
   FullWidthBanner,
+  ListLayout,
+  Sidebar,
+  EventIndex, 
+  ArticleGrid,
 } from "./components/PageLayouts";
 
 //import logoColor from "/src/imports/SDSC_logo_horizontal_rgb_colors.png";
