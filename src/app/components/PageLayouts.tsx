@@ -410,6 +410,14 @@ export function PageLayouts() {
         </div>
       </div>
 
+    </section>
+  );
+}
+
+export function contentSidebar() {
+  return (
+    <section className="space-y-12">
+
       {/* Content + Sidebar */}
       <div className="space-y-4">
         <h3 className="text-lg font-bold text-[#000000] dark:text-white">

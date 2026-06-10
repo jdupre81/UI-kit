@@ -619,6 +619,11 @@ export default function App() {
                   <PageLayouts />
                 </div>
 
+                {/* Content Sidebar */}
+                <div id="content-sidebar">
+                  <ContentSidebar />
+                </div>
+
                   {/* Event Index */}
                 <div id="event-index">
                   <EventIndex />
