@@ -645,7 +645,7 @@ export default function App() {
                   <PageLayouts />
                 </div>
 
-                {/* ARTICKE GRID */}
+                {/* ARTICLE GRID */}
                 <div id="article-grid">
                   <PageLayouts />
                 </div>
