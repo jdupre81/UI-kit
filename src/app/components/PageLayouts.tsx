@@ -15,7 +15,7 @@ import {
   User,
 } from "lucide-react";
 
-import bgPattern3 from "src/imports/global_background3.png";
+import bgPattern3 from "src/imports/bg-pattern-3.png";
 
 export function PageLayouts() {
   return (
