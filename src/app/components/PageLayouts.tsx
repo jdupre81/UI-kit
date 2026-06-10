@@ -70,6 +70,48 @@ export function PageLayouts() {
         </div>
       </div>
 
+      {/* Feature Grid: 2-Column */}
+      <div className="space-y-4">
+        <h3 className="text-lg font-bold text-[#000000] dark:text-white">
+          FEATURE GRID: 2-COLUMN
+        </h3>
+        <p className="text-sm text-[#848484] dark:text-gray-300">
+          Two-column grid for detailed feature showcases or
+          side-by-side comparisons
+        </p>
+
+        <div className="bg-[#dddeec] rounded-none p-8 md:p-12">
+          <div className="grid md:grid-cols-2 gap-8">
+            <div className="bg-white dark:bg-[#2d2d2d] rounded-none p-8 space-y-4">
+              <div className="w-12 h-12 bg-[#5461a6] bg-opacity-10 rounded-none flex items-center justify-center">
+                <Database className="w-6 h-6 text-[#ffffff] dark:text-[#ffffff]" />
+              </div>
+              <h4 className="text-xl font-bold text-[#000000] dark:text-white">
+                Lorem Ipsum Dolor
+              </h4>
+              <p className="text-base text-[#000000] dark:text-white leading-relaxed">
+                Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+            <div className="bg-white dark:bg-[#2d2d2d] rounded-none p-8 space-y-4">
+              <div className="w-12 h-12 bg-[#5461a6] bg-opacity-10 rounded-none flex items-center justify-center">
+                <Cpu className="w-6 h-6 text-[#ffffff] dark:text-[#ffffff]" />
+              </div>
+              <h4 className="text-xl font-bold text-[#000000] dark:text-white">
+                Sit Amet Consectetur
+              </h4>
+              <p className="text-base text-[#000000] dark:text-white leading-relaxed">
+                Ut enim ad minim veniam, quis nostrud
+                exercitation ullamco laboris nisi ut aliquip ex
+                ea commodo consequat.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
       {/* Feature Grid: 3-Column */}
       <div className="space-y-4">
         <h3 className="text-lg font-bold text-[#000000] dark:text-white">
@@ -179,48 +221,6 @@ export function PageLayouts() {
         </div>
       </div>
 
-      {/* Feature Grid: 2-Column */}
-      <div className="space-y-4">
-        <h3 className="text-lg font-bold text-[#000000] dark:text-white">
-          FEATURE GRID: 2-COLUMN
-        </h3>
-        <p className="text-sm text-[#848484] dark:text-gray-300">
-          Two-column grid for detailed feature showcases or
-          side-by-side comparisons
-        </p>
-
-        <div className="bg-[#dddeec] rounded-none p-8 md:p-12">
-          <div className="grid md:grid-cols-2 gap-8">
-            <div className="bg-white dark:bg-[#2d2d2d] rounded-none p-8 space-y-4">
-              <div className="w-12 h-12 bg-[#5461a6] bg-opacity-10 rounded-none flex items-center justify-center">
-                <Database className="w-6 h-6 text-[#ffffff] dark:text-[#ffffff]" />
-              </div>
-              <h4 className="text-xl font-bold text-[#000000] dark:text-white">
-                Lorem Ipsum Dolor
-              </h4>
-              <p className="text-base text-[#000000] dark:text-white leading-relaxed">
-                Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit, sed do eiusmod tempor
-                incididunt ut labore et dolore magna aliqua.
-              </p>
-            </div>
-            <div className="bg-white dark:bg-[#2d2d2d] rounded-none p-8 space-y-4">
-              <div className="w-12 h-12 bg-[#5461a6] bg-opacity-10 rounded-none flex items-center justify-center">
-                <Cpu className="w-6 h-6 text-[#ffffff] dark:text-[#ffffff]" />
-              </div>
-              <h4 className="text-xl font-bold text-[#000000] dark:text-white">
-                Sit Amet Consectetur
-              </h4>
-              <p className="text-base text-[#000000] dark:text-white leading-relaxed">
-                Ut enim ad minim veniam, quis nostrud
-                exercitation ullamco laboris nisi ut aliquip ex
-                ea commodo consequat.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-
     </section>
   );
 }
@@ -290,7 +290,7 @@ export function MoreLayouts() {
   return (
     <section className="space-y-12">
 
-         {/* Full-Width Banner */}
+      {/* Full-Width Banner */}
       <div className="space-y-4">
         <h3 className="text-lg font-bold text-[#000000] dark:text-white">
           FULL-WIDTH BANNER
