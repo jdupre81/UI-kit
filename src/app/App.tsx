@@ -73,13 +73,13 @@ export default function App() {
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-3">
               <img
-                src={logoColor}
+                //src={logoColor}
                 alt="SDSC Logo"
                 className="h-10 dark:hidden"
               />
 
               <img
-                src={logoWhite}
+                //src={logoWhite}
                 alt="SDSC Logo"
                 className="hidden h-10 dark:block"
               />
@@ -143,7 +143,7 @@ export default function App() {
         <div
           className="w-full p-12 text-white relative overflow-hidden"
           style={{
-            backgroundImage: `url(${bgPattern})`,
+            //backgroundImage: `url(${bgPattern})`,
             backgroundSize: "cover",
             backgroundPosition: "sticky center",
           }}
@@ -666,7 +666,7 @@ export default function App() {
               <div className="flex items-center gap-1 mb-4">
                 <p>
                   <img
-                  src={logoWhite}
+                  //src={logoWhite}
                   alt="SDSC Logo"
                   className="h-8"
                 />
