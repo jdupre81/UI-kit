@@ -35,6 +35,7 @@ export function PageLayouts() {
             <div
               className="h-96 bg-gradient-to-br from-[#26245c] to-[#5461a6] flex items-center justify-center"
               style={{
+                backgroundImage: `url(${bgPattern3})`,
                 backgroundSize: "cover",
                 backgroundPosition: "left center",
                 backgroundBlendMode: "overlay",
@@ -65,48 +66,6 @@ export function PageLayouts() {
                 Learn More
                 <ArrowRight className="w-4 h-4" />
               </button>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/* Feature Grid: 2-Column */}
-      <div className="space-y-4">
-        <h3 className="text-lg font-bold text-[#000000] dark:text-white">
-          FEATURE GRID: 2-COLUMN
-        </h3>
-        <p className="text-sm text-[#848484] dark:text-gray-300">
-          Two-column grid for detailed feature showcases or
-          side-by-side comparisons
-        </p>
-
-        <div className="bg-[#dddeec] rounded-none p-8 md:p-12">
-          <div className="grid md:grid-cols-2 gap-8">
-            <div className="bg-white dark:bg-[#2d2d2d] rounded-none p-8 space-y-4">
-              <div className="w-12 h-12 bg-[#5461a6] bg-opacity-10 rounded-none flex items-center justify-center">
-                <Database className="w-6 h-6 text-[#ffffff] dark:text-[#ffffff]" />
-              </div>
-              <h4 className="text-xl font-bold text-[#000000] dark:text-white">
-                Lorem Ipsum Dolor
-              </h4>
-              <p className="text-base text-[#000000] dark:text-white leading-relaxed">
-                Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit, sed do eiusmod tempor
-                incididunt ut labore et dolore magna aliqua.
-              </p>
-            </div>
-            <div className="bg-white dark:bg-[#2d2d2d] rounded-none p-8 space-y-4">
-              <div className="w-12 h-12 bg-[#5461a6] bg-opacity-10 rounded-none flex items-center justify-center">
-                <Cpu className="w-6 h-6 text-[#ffffff] dark:text-[#ffffff]" />
-              </div>
-              <h4 className="text-xl font-bold text-[#000000] dark:text-white">
-                Sit Amet Consectetur
-              </h4>
-              <p className="text-base text-[#000000] dark:text-white leading-relaxed">
-                Ut enim ad minim veniam, quis nostrud
-                exercitation ullamco laboris nisi ut aliquip ex
-                ea commodo consequat.
-              </p>
             </div>
           </div>
         </div>
@@ -208,7 +167,7 @@ export function PageLayouts() {
             </div>
             <div className="text-center space-y-3">
               <div className="w-12 h-12 bg-[#5461a6] bg-opacity-10 rounded-none flex items-center justify-center mx-auto">
-                <Rocket className="w-6 h-6 text-[#ffffff] dark:text-[#ffffff]" />
+                <Rocket className="w-6 h-6 text-[#ffffff] dark:text-[ffffff]" />
               </div>
               <h4 className="text-base font-bold text-[#000000] dark:text-white">
                 Eiusmod
@@ -221,74 +180,100 @@ export function PageLayouts() {
         </div>
       </div>
 
-    </section>
-  );
-}
+      {/* Feature Grid: 2-Column */}
+      <div className="space-y-4">
+        <h3 className="text-lg font-bold text-[#000000] dark:text-white">
+          FEATURE GRID: 2-COLUMN
+        </h3>
+        <p className="text-sm text-[#848484] dark:text-gray-300">
+          Two-column grid for detailed feature showcases or
+          side-by-side comparisons
+        </p>
 
-export function KeyNumbers() {
-  return (
-    <section className="space-y-6">
-      <div>
+        <div className="bg-[#dddeec] rounded-none p-8 md:p-12">
+          <div className="grid md:grid-cols-2 gap-8">
+            <div className="bg-white dark:bg-[#2d2d2d] rounded-none p-8 space-y-4">
+              <div className="w-12 h-12 bg-[#5461a6] bg-opacity-10 rounded-none flex items-center justify-center">
+                <Database className="w-6 h-6 text-[#ffffff] dark:text-[#ffffff]" />
+              </div>
+              <h4 className="text-xl font-bold text-[#000000] dark:text-white">
+                Lorem Ipsum Dolor
+              </h4>
+              <p className="text-base text-[#000000] dark:text-white leading-relaxed">
+                Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+            <div className="bg-white dark:bg-[#2d2d2d] rounded-none p-8 space-y-4">
+              <div className="w-12 h-12 bg-[#5461a6] bg-opacity-10 rounded-none flex items-center justify-center">
+                <Cpu className="w-6 h-6 text-[#ffffff] dark:text-[#ffffff]" />
+              </div>
+              <h4 className="text-xl font-bold text-[#000000] dark:text-white">
+                Sit Amet Consectetur
+              </h4>
+              <p className="text-base text-[#000000] dark:text-white leading-relaxed">
+                Ut enim ad minim veniam, quis nostrud
+                exercitation ullamco laboris nisi ut aliquip ex
+                ea commodo consequat.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Key Numbers */}
+      <div className="space-y-4">
         <h3 className="text-lg font-bold text-[#000000] dark:text-white">
           KEY NUMBERS
         </h3>
         <p className="text-sm text-[#848484] dark:text-gray-300">
-          Highlight important statistics, metrics, or achievements with large numbers
+          Highlight important statistics, metrics, or
+          achievements with large numbers
         </p>
-      </div>
 
-      <div className="bg-[#26245c] rounded-none p-8 md:p-12">
-        <div className="text-center mb-8">
-          <h2 className="text-3xl font-bold text-white mb-3">
-            Lorem Ipsum Dolor
-          </h2>
-        </div>
-
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-          <div className="text-center">
-            <div className="text-5xl font-bold text-white mb-2">
-              150+
-            </div>
-            <p className="text-base text-white opacity-90">
-              Lorem Ipsum
-            </p>
+        <div className="bg-[#26245c] rounded-none p-8 md:p-12">
+          <div className="text-center mb-8">
+            <h2 className="text-3xl font-bold text-white mb-3">
+              Lorem Ipsum Dolor
+            </h2>
           </div>
-
-          <div className="text-center">
-            <div className="text-5xl font-bold text-white mb-2">
-              30+
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+            <div className="text-center">
+              <div className="text-5xl font-bold text-white mb-2">
+                150+
+              </div>
+              <p className="text-base text-white opacity-90">
+                Lorem Ipsum
+              </p>
             </div>
-            <p className="text-base text-white opacity-90">
-              Dolor Sit
-            </p>
-          </div>
-
-          <div className="text-center">
-            <div className="text-5xl font-bold text-white mb-2">
-              500+
+            <div className="text-center">
+              <div className="text-5xl font-bold text-white mb-2">
+                30+
+              </div>
+              <p className="text-base text-white opacity-90">
+                Dolor Sit
+              </p>
             </div>
-            <p className="text-base text-white opacity-90">
-              Amet Consectetur
-            </p>
-          </div>
-
-          <div className="text-center">
-            <div className="text-5xl font-bold text-white mb-2">
-              12
+            <div className="text-center">
+              <div className="text-5xl font-bold text-white mb-2">
+                500+
+              </div>
+              <p className="text-base text-white opacity-90">
+                Amet Consectetur
+              </p>
             </div>
-            <p className="text-base text-white opacity-90">
-              Adipiscing Elit
-            </p>
+            <div className="text-center">
+              <div className="text-5xl font-bold text-white mb-2">
+                12
+              </div>
+              <p className="text-base text-white opacity-90">
+                Adipiscing Elit
+              </p>
+            </div>
           </div>
         </div>
       </div>
-    </section>
-  );
-}   
-
-export function MoreLayouts() {
-  return (
-    <section className="space-y-12">
 
       {/* Full-Width Banner */}
       <div className="space-y-4">
@@ -329,7 +314,7 @@ export function MoreLayouts() {
             </p>
             <button
               style={{ fontFamily: "Switzer, sans-serif" }}
-              className="uppercase px-8 py-3 bg-white dark:bg-[#ffffff] text-[#26245c] rounded-none hover:bg-opacity-90 transition-colors"
+              className="uppercase px-8 py-3 bg-white dark:bg-[ffffff] text-[#26245c] rounded-none hover:bg-opacity-90 transition-colors"
             >
               Get Started
             </button>
@@ -450,19 +435,19 @@ export function MoreLayouts() {
                 </a>
                 <a
                   href="#"
-                  className="block text-sm text-[#000000] hover:text-[#5461a6] dark:text-[#93c5fd] transition-colors"
+                  className="block text-sm text-[#000000] dark:text-white hover:text-[#5461a6] dark:text-[#93c5fd] transition-colors"
                 >
                   Amet consectetur
                 </a>
                 <a
                   href="#"
-                  className="block text-sm text-[#000000] hover:text-[#5461a6] dark:text-[#93c5fd] transition-colors"
+                  className="block text-sm text-[#000000] dark:text-white hover:text-[#5461a6] dark:text-[#93c5fd] transition-colors"
                 >
                   Adipiscing elit
                 </a>
                 <a
                   href="#"
-                  className="block text-sm text-[#000000] hover:text-[#5461a6] dark:text-[#93c5fd] transition-colors"
+                  className="block text-sm text-[#000000] dark:text-white hover:text-[#5461a6] dark:text-[#93c5fd] transition-colors"
                 >
                   Sed do eiusmod
                 </a>
