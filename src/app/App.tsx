@@ -17,7 +17,7 @@ import {
   PageLayouts, 
   ArticleGrid,
   EventIndex, 
-  ContentSidebar,
+  contentSidebar,
 } from "./components/PageLayouts";
 
 //import logoColor from "/src/imports/SDSC_logo_horizontal_rgb_colors.png";
