@@ -759,3 +759,5 @@ export function ArticleGrid() {
     </section>
   );
 }
+
+/// Add more page layout components as needed, following the same structure and styling conventions
