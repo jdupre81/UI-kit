@@ -322,6 +322,14 @@ export function PageLayouts() {
         </div>
       </div>
 
+    </section>
+  );
+}
+
+export function ListLayout() {
+  return (
+    <section className="space-y-12">
+      
       {/* List Layout */}
       <div className="space-y-4">
         <h3 className="text-lg font-bold text-[#000000] dark:text-white">

@@ -16,6 +16,7 @@ import {
 import { 
   PageLayouts, 
   ArticleGrid,
+  ListLayout,
   EventIndex, 
   Sidebar,
 } from "./components/PageLayouts";
@@ -618,6 +619,11 @@ export default function App() {
                 {/* Hero Section: Image + Content */}
                 <div id="hero-section">
                   <PageLayouts />
+                </div>
+
+                {/* List Layout */}
+                <div id="list-layout">
+                  <ListLayout />
                 </div>
 
                 {/* Content Sidebar */}
