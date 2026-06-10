@@ -14,7 +14,6 @@ import {
   MapPin,
   User,
 } from "lucide-react";
-import bgPattern3 from "../../imports/global_background_3.png";
 
 export function PageLayouts() {
   return (
