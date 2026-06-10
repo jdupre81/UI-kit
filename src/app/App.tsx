@@ -12,8 +12,11 @@ import {
   Toggles,
   ProgressIndicators,
 } from "./components/BasicComponents";
+
 import { 
-  PageLayouts } from "./components/PageLayouts";
+  PageLayouts, 
+  ArticleGrid, 
+} from "./components/PageLayouts";
 
 //import logoColor from "/src/imports/SDSC_logo_horizontal_rgb_colors.png";
 //import logoWhite from "/src/imports/SDSC_logo_horizontal_rgb_white.png";
@@ -613,6 +616,11 @@ export default function App() {
                 {/* Hero Section: Image + Content */}
                 <div id="hero-section">
                   <PageLayouts />
+                </div>
+
+                  {/* Article Grid */}
+                <div id="article-grid">
+                  <ArticleGrid />
                 </div>
 
               </section>
