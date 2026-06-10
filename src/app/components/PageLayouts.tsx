@@ -15,6 +15,8 @@ import {
   User,
 } from "lucide-react";
 
+import bgPattern3 from "src/imports/bg-pattern-3.png";
+
 export function PageLayouts() {
   return (
     <section className="space-y-12">
