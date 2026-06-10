@@ -365,7 +365,7 @@ export default function App() {
                     </li>
                     <li>
                       <a
-                        href="#key-numbers"
+                        href="#KeyNumbers"
                         className="text-[#5461a6] dark:text-[#93c5fd] hover:text-[#26245c] dark:hover:text-white transition-colors block py-1"
                       >
                         Key Numbers
