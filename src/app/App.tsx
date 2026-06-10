@@ -19,6 +19,7 @@ import {
   ListLayout,
   EventIndex, 
   Sidebar,
+  KeyNumbers,
 } from "./components/PageLayouts";
 
 //import logoColor from "/src/imports/SDSC_logo_horizontal_rgb_colors.png";
@@ -619,6 +620,11 @@ export default function App() {
                 {/* Hero Section: Image + Content */}
                 <div id="hero-section">
                   <PageLayouts />
+                </div>
+
+                {/* Key Numbers */}
+                <div id="key-numbers">
+                  <KeyNumbers />
                 </div>
 
                 {/* List Layout */}
