@@ -23,6 +23,8 @@ import {
   ArticleGrid,
 } from "./components/PageLayouts";
 
+import logoColor from "/../../SDSC_logo_horizontal_rgb_colors.png";
+
 //import logoColor from "/src/imports/SDSC_logo_horizontal_rgb_colors.png";
 //import logoWhite from "/src/imports/SDSC_logo_horizontal_rgb_white.png";
 //import bgPattern from "/src/imports/global_background2.png";
@@ -79,7 +81,7 @@ export default function App() {
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-3">
               <img
-                //src={logoColor}
+                src={logoColor}
                 alt="SDSC Logo"
                 className="h-10 dark:hidden"
               />
