@@ -306,9 +306,6 @@ export function ColorPalette() {
       {/* Primary Colors */}
       <div className="space-y-4">
         <div className="flex items-center gap-2">
-          <span className="text-[#848484] dark:text-gray-300 text-sm font-bold">
-            〇
-          </span>
           <h3 className="text-base font-bold text-[#000000] dark:text-white">
             PRIMARY COLORS
           </h3>
@@ -328,9 +325,6 @@ export function ColorPalette() {
       {/* Secondary Colors */}
       <div className="space-y-4">
         <div className="flex items-center gap-2">
-          <span className="text-[#848484] dark:text-gray-300 text-sm font-bold">
-            〇
-          </span>
           <h3 className="text-base font-bold text-[#000000] dark:text-white">
             SECONDARY COLOR
           </h3>
@@ -350,9 +344,6 @@ export function ColorPalette() {
       {/* Neutral Colors */}
       <div className="space-y-4">
         <div className="flex items-center gap-2">
-          <span className="text-[#848484] dark:text-gray-300 text-sm font-bold">
-            〇
-          </span>
           <h3 className="text-base font-bold text-[#000000] dark:text-white">
             NEUTRAL COLORS
           </h3>
