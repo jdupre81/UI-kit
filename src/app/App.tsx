@@ -23,9 +23,9 @@ import {
   ArticleGrid,
 } from "./components/PageLayouts";
 
-import logoColor from "/../../SDSC_logo_horizontal_rgb_colors.png";
-import logoWhite from "/../../SDSC_logo_horizontal_rgb_white.png";
-//import bgPattern from "/src/imports/global_background2.png";
+import logoColor from "../../SDSC_logo_horizontal_rgb_colors.png";
+import logoWhite from "../../SDSC_logo_horizontal_rgb_white.png";
+import bgPattern from "/src/imports/global_background2.png";
 
 export default function App() {
   const [showScrollTop, setShowScrollTop] = useState(false);
