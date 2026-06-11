@@ -190,7 +190,7 @@ export default function App() {
           {/* Sticky Sidebar - Table of Contents */}
           <aside className="hidden lg:block w-64 shrink-0">
             <div
-              className={`sticky top-30 max-h-[calc(100vh-9rem)] overflow-y-auto border p-6 rounded-none shadow-sm transition-colors ${darkMode ? "bg-[#2D2D2D] border-[#404040]" : "bg-white border-[#E5E5E5]"}`}
+              className={`sticky top-30 border p-6 rounded-none shadow-sm transition-colors ${darkMode ? "bg-[#2d2d2d] border-[#404040]" : "bg-white border-[#E5E5E5]"}`}
             >
               <h2
                 className={`text-sm font-bold mb-4 uppercase tracking-wide ${darkMode ? "text-white" : "text-[#000000]"}`}
@@ -203,7 +203,7 @@ export default function App() {
                 <div>
                   <div className="flex items-center gap-2 mb-3">
                     <span
-                      className={`text-xs font-bold ${darkMode ? "text-gray-300" : "text-[#90ca42]"}`}
+                      className={`text-xs font-bold ${darkMode ? "text-gray-300" : "text-[#848484]"}`}
                     >
                       〇
                     </span>
