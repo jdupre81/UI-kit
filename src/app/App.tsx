@@ -203,7 +203,7 @@ export default function App() {
                 <div>
                   <div className="flex items-center gap-2 mb-3">
                     <span
-                      className={`text-xs font-bold ${darkMode ? "text-gray-300" : "text-[#848484]"}`}
+                      className={`text-xs font-bold ${darkMode ? "text-gray-300" : "text-[#90ca42]"}`}
                     >
                       〇
                     </span>
