@@ -23,8 +23,8 @@ import {
   ArticleGrid,
 } from "./components/PageLayouts";
 
-import logoColor from "../../SDSC_logo_horizontal_rgb_colors.png";
-import logoWhite from "../../SDSC_logo_horizontal_rgb_white.png";
+import logoColor from "/src/imports/SDSC_logo_horizontal_rgb_colors.png";
+import logoWhite from "/src/imports/SDSC_logo_horizontal_rgb_white.png";
 import bgPattern from "/src/imports/global_background2.png";
 
 export default function App() {
@@ -149,7 +149,7 @@ export default function App() {
         <div
           className="w-full p-12 text-white relative overflow-hidden"
           style={{
-            //backgroundImage: `url(${bgPattern})`,
+            backgroundImage: `url(${bgPattern})`,
             backgroundSize: "cover",
             backgroundPosition: "sticky center",
           }}
