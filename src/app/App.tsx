@@ -24,9 +24,7 @@ import {
 } from "./components/PageLayouts";
 
 import logoColor from "/../../SDSC_logo_horizontal_rgb_colors.png";
-
-//import logoColor from "/src/imports/SDSC_logo_horizontal_rgb_colors.png";
-//import logoWhite from "/src/imports/SDSC_logo_horizontal_rgb_white.png";
+import logoWhite from "/../../SDSC_logo_horizontal_rgb_white.png";
 //import bgPattern from "/src/imports/global_background2.png";
 
 export default function App() {
@@ -87,7 +85,7 @@ export default function App() {
               />
 
               <img
-                //src={logoWhite}
+                src={logoWhite}
                 alt="SDSC Logo"
                 className="hidden h-10 dark:block"
               />
@@ -669,7 +667,7 @@ export default function App() {
               <div className="flex items-center gap-1 mb-4">
                 <p>
                   <img
-                  //src={logoWhite}
+                  src={logoWhite}
                   alt="SDSC Logo"
                   className="h-8"
                 />
