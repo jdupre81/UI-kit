@@ -1,3 +1,6 @@
+  # NEW REPO - SDSC Design Guidelines
+  https://github.com/SwissDataScienceCenter/sdsc-design-guidelines
+  
 
   # SDSC UI kit basic
 
